@@ -1,0 +1,2243 @@
+{
+  "Header": {
+    "Name": "Ingredion",
+    "Dimension": "Comunidad y gestión en la operación agrícola"
+  },
+  "KPI_SET": [
+    {
+      "ID": "01",
+      "KPI_NAME": "Farmers participantes",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "Número de productores",
+      "TYPE": "Municipio",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "RESULTS": [
+            {
+              "mun": "Angostura",
+              "val": 45
+
+            },
+            {
+              "mun": "Badiraguato",
+              "val": 1
+
+            },
+            {
+              "mun": "Culiacan",
+              "val": 13
+
+            },
+            {
+              "mun": "Guasave",
+              "val": 5
+
+            },
+            {
+              "mun": "Mocorito",
+              "val": 8
+
+            },
+            {
+              "mun": "Navolato",
+              "val": 23
+
+            },
+            {
+              "mun": "Salvador Alvarado",
+              "val": 11
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "RESULTS": [
+            {
+              "mun": "Arandas",
+              "val": 4
+
+            },
+            {
+              "mun": "Atotonilco el Alto",
+              "val": 14
+
+            },
+            {
+              "mun": "Ayotlan",
+              "val": 1
+
+            },
+            {
+              "mun": "Chapala",
+              "val": 7
+
+            },
+            {
+              "mun": "Ixtlahuacan de los Membrillos",
+              "val": 12
+
+            },
+            {
+              "mun": "Juanacatlan",
+              "val": 13
+
+            },
+            {
+              "mun": "La Barca",
+              "val": 5
+
+            },
+            {
+              "mun": "Ocotlan",
+              "val": 18
+
+            },
+            {
+              "mun": "Poncitlan",
+              "val": 15
+
+            },
+            {
+              "mun": "Tototlan",
+              "val": 10
+
+            },
+            {
+              "mun": "Zapotlan del Rey",
+              "val": 11
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "RESULTS": [
+            {
+              "mun": "Culiacan",
+              "val": 15
+            },
+            {
+              "mun": "Mocorito",
+              "val": 1
+            },
+            {
+              "mun": "Navolato",
+              "val": 15
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "RESULTS": [
+            {
+              "mun": "Chapala",
+              "val": 2
+            },
+            {
+              "mun": "El Salto",
+              "val": 1
+            },
+            {
+              "mun": "Ixtlahuacan de los Membrillos",
+              "val": 1
+            },
+            {
+              "mun": "Juanacatlan",
+              "val": 12
+            },
+            {
+              "mun": "Ocotlan",
+              "val": 15
+            },
+            {
+              "mun": "Poncitlan",
+              "val": 25
+            },
+            {
+              "mun": "Tototlan",
+              "val": 16
+            },
+            {
+              "mun": "Zapotlan del Rey",
+              "val": 13
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "RESULTS": [
+            {
+              "mun": "Culiacan",
+              "val": 12
+            },
+            {
+              "mun": "Navolato",
+              "val": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "02",
+      "KPI_NAME": "Proporción de productores con agricultura por contrato",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "Número de productores",
+      "TYPE": "Municipio",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "RESULTS": [
+            {
+              "prop": 100
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "RESULTS": [
+            {
+              "prop": 20
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "RESULTS": [
+            {
+              "prop": 55
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "RESULTS": [
+            {
+              "prop": 100
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "RESULTS": [
+            {
+              "prop": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "03",
+      "KPI_NAME": "Infraestructura",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "ha",
+      "TYPE": "Parcela",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "tipo": "Benchmark plot",
+              "value": 10
+            },
+            {
+              "tipo": "Extension area",
+              "value": 979
+
+            },
+            {
+              "tipo": "Impact area",
+              "value": 1514
+
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "tipo": "Benchmark plot",
+              "value": 40
+            },
+            {
+              "tipo": "Extension area",
+              "value": 439
+
+            },
+            {
+              "tipo": "Impact area",
+              "value": 1935
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "tipo": "Benchmark plot",
+              "value": 56.4
+            },
+            {
+              "tipo": "Extension area",
+              "value": 663.7
+            },
+            {
+              "tipo": "Impact area",
+              "value": 669.6
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "tipo": "Benchmark plot",
+              "value": 12
+            },
+            {
+              "tipo": "Extension area",
+              "value": 177
+            },
+            {
+              "tipo": "Impact area",
+              "value": 1002
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2020-2021",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "tipo": "Benchmark plot",
+              "value": 35
+            },
+            {
+              "tipo": "Extension area",
+              "value": 289
+            },
+            {
+              "tipo": "Impact area",
+              "value": 736
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "04",
+      "KPI_NAME": "Superficie aplicando innovaciones agrícolas",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "Ha",
+      "TYPE": "null",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "RESULTS": [
+            {
+              "mun": "Angostura",
+              "val": 1127
+            },
+            {
+              "mun": "Badiraguato",
+              "val": 12
+            },
+            {
+              "mun": "Culiacan",
+              "val": 339
+            },
+            {
+              "mun": "Guasave",
+              "val": 50
+            },
+            {
+              "mun": "Mocorito",
+              "val": 283
+
+            },
+            {
+              "mun": "Navolato",
+              "val": 428
+            },
+            {
+              "mun": "Salvador Alvarado",
+              "val": 265
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "RESULTS": [
+            {
+              "mun": "Arandas",
+              "val": 83
+
+            },
+            {
+              "mun": "Atotonilco el Alto",
+              "val": 314
+
+            },
+            {
+              "mun": "Ayotlan",
+              "val": 31
+
+            },
+            {
+              "mun": "Chapala",
+              "val": 114
+
+            },
+            {
+              "mun": "Ixtlahuacan de los Membrillos",
+              "val": 428
+
+            },
+            {
+              "mun": "Juanacatlan",
+              "val": 359
+
+            },
+            {
+              "mun": "La Barca",
+              "val": 80
+
+            },
+            {
+              "mun": "Ocotlan",
+              "val": 182
+
+            },
+            {
+              "mun": "Poncitlan",
+              "val": 436
+
+            },
+            {
+              "mun": "Tototlan",
+              "val": 193
+
+            },
+            {
+              "mun": "Zapotlan del Rey",
+              "val": 194
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "RESULTS": [
+            {
+              "mun": "Culiacan",
+              "val": 558.2
+            },
+            {
+              "mun": "Mocorito",
+              "val": 110.0
+            },
+            {
+              "mun": "Navolato",
+              "val": 636.0
+            },
+            {
+              "mun": "Sinaloa",
+              "val": 85.5
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "RESULTS": [
+            {
+              "mun": "Chapala",
+              "val": 12
+            },
+            {
+              "mun": "El Salto",
+              "val": 57
+            },
+            {
+              "mun": "Ixtlahuacan de los Membrillos",
+              "val": 15
+            },
+            {
+              "mun": "Juanacatlan",
+              "val": 160
+            },
+            {
+              "mun": "Ocotlan",
+              "val": 218
+            },
+            {
+              "mun": "Poncitlan",
+              "val": 338
+            },
+            {
+              "mun": "Tototlan",
+              "val": 252
+            },
+            {
+              "mun": "Zapotlan del Rey",
+              "val": 139
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "RESULTS": [
+            {
+              "mun": "Culiacan",
+              "val": 713
+            },
+            {
+              "mun": "Navolato",
+              "val": 347
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "05",
+      "KPI_NAME": "Superficie bajo Agricultura de Conservación",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "Número de participantes",
+      "TYPE": "null",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "tipo": "Stubble management",
+              "value": 1725
+
+
+            },
+            {
+              "tipo": "Minimum soil disturbance",
+              "value": 1663
+
+
+            },
+            {
+              "tipo": "Crop rotation",
+              "value": null
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "tipo": "Stubble management",
+              "value": 1172
+
+            },
+            {
+              "tipo": "Minimum soil disturbance",
+              "value": 1789
+
+            },
+            {
+              "tipo": "Crop rotation",
+              "value": 14
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "tipo": "Stubble management",
+              "value": 1311.2
+            },
+            {
+              "tipo": "Minimum soil disturbance",
+              "value": 712.7
+            },
+            {
+              "tipo": "Crop rotation",
+              "value": null
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "tipo": "Stubble management",
+              "value": 649
+            },
+            {
+              "tipo": "Minimum soil disturbance",
+              "value": 738
+            },
+            {
+              "tipo": "Crop rotation",
+              "value": null
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "tipo": "Stubble management",
+              "value": 529
+            },
+            {
+              "tipo": "Minimum soil disturbance",
+              "value": 417
+            },
+            {
+              "tipo": "Crop rotation",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "06",
+      "KPI_NAME": "Fecha de siembra",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "Porcentaje Parcelas",
+      "TYPE": "null",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS":[{"fecha":"11/05/2023","superficie_por":0.0170802773,"parcelas_porc":0.0192307692},{"fecha":"11/06/2023","superficie_por":0.0522455541,"parcelas_porc":0.0576923077},{"fecha":"11/07/2023","superficie_por":0.0367728323,"parcelas_porc":0.0576923077},{"fecha":"11/08/2023","superficie_por":0.010549583,"parcelas_porc":0.0192307692},{"fecha":"11/09/2023","superficie_por":0.0200944439,"parcelas_porc":0.0384615385},{"fecha":"11/10/2023","superficie_por":0.0703305536,"parcelas_porc":0.0576923077},{"fecha":"11/12/2023","superficie_por":0.0381794434,"parcelas_porc":0.0384615385},{"fecha":"11/13/2023","superficie_por":0.0832914699,"parcelas_porc":0.0576923077},{"fecha":"11/14/2023","superficie_por":0.1235808299,"parcelas_porc":0.1153846154},{"fecha":"11/15/2023","superficie_por":0.15844469,"parcelas_porc":0.1346153846},{"fecha":"11/16/2023","superficie_por":0.0872098865,"parcelas_porc":0.0961538462},{"fecha":"11/17/2023","superficie_por":0.0406912489,"parcelas_porc":0.0384615385},{"fecha":"11/18/2023","superficie_por":0.1486988848,"parcelas_porc":0.1538461538},{"fecha":"11/19/2023","superficie_por":0.0192906661,"parcelas_porc":0.0384615385},{"fecha":"11/20/2023","superficie_por":0.0698281925,"parcelas_porc":0.0576923077},{"fecha":"12/15/2023","superficie_por":0.0237114438,"parcelas_porc":0.0192307692}]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS":[{"fecha": "01/07/2023", "superficie_por": 0.000615933, "parcelas_porc": 0.0027247956}, {"fecha": "02/04/2023", "superficie_por": 0.0018346941, "parcelas_porc": 0.0027247956}, {"fecha": "05/19/2023", "superficie_por": 0.0028830907, "parcelas_porc": 0.0027247956}, {"fecha": "05/24/2023", "superficie_por": 0.0076270853, "parcelas_porc": 0.0081743869}, {"fecha": "05/25/2023", "superficie_por": 0.0177179027, "parcelas_porc": 0.0027247956}, {"fecha": "05/26/2023", "superficie_por": 0.0021404764, "parcelas_porc": 0.0027247956}, {"fecha": "05/29/2023", "superficie_por": 0.005241983, "parcelas_porc": 0.0027247956}, {"fecha": "05/30/2023", "superficie_por": 0.03965997, "parcelas_porc": 0.0136239782}, {"fecha": "05/31/2023", "superficie_por": 0.0026209915, "parcelas_porc": 0.0027247956}, {"fecha": "06/01/2023", "superficie_por": 0.0684777718, "parcelas_porc": 0.0354223433}, {"fecha": "06/02/2023", "superficie_por": 0.0398347028, "parcelas_porc": 0.0408719346}, {"fecha": "06/03/2023", "superficie_por": 0.0548267743, "parcelas_porc": 0.0463215259}, {"fecha": "06/04/2023", "superficie_por": 0.0479641448, "parcelas_porc": 0.0599455041}, {"fecha": "06/05/2023", "superficie_por": 0.0455615693, "parcelas_porc": 0.0544959128}, {"fecha": "06/06/2023", "superficie_por": 0.0372617628, "parcelas_porc": 0.0463215259}, {"fecha": "06/07/2023", "superficie_por": 0.0620301327, "parcelas_porc": 0.0708446866}, {"fecha": "06/08/2023", "superficie_por": 0.0312072724, "parcelas_porc": 0.0435967302}, {"fecha": "06/09/2023", "superficie_por": 0.0301501391, "parcelas_porc": 0.0354223433}, {"fecha": "06/10/2023", "superficie_por": 0.0479423032, "parcelas_porc": 0.0626702997}, {"fecha": "06/11/2023", "superficie_por": 0.0551587666, "parcelas_porc": 0.0463215259}, {"fecha": "06/12/2023", "superficie_por": 0.0472521088, "parcelas_porc": 0.0599455041}, {"fecha": "06/13/2023", "superficie_por": 0.0411146203, "parcelas_porc": 0.0517711172}, {"fecha": "06/14/2023", "superficie_por": 0.0403807427, "parcelas_porc": 0.0408719346}, {"fecha": "06/15/2023", "superficie_por": 0.0492178524, "parcelas_porc": 0.0490463215}, {"fecha": "06/16/2023", "superficie_por": 0.0082561233, "parcelas_porc": 0.0136239782}, {"fecha": "06/17/2023", "superficie_por": 0.0096103022, "parcelas_porc": 0.0136239782}, {"fecha": "06/18/2023", "superficie_por": 0.0360692116, "parcelas_porc": 0.0272479564}, {"fecha": "06/19/2023", "superficie_por": 0.0153764836, "parcelas_porc": 0.0136239782}, {"fecha": "06/20/2023", "superficie_por": 0.0338894204, "parcelas_porc": 0.0326975477}, {"fecha": "06/21/2023", "superficie_por": 0.016381197, "parcelas_porc": 0.0136239782}, {"fecha": "06/22/2023", "superficie_por": 0.0105713325, "parcelas_porc": 0.0108991826}, {"fecha": "06/23/2023", "superficie_por": 0.0149833349, "parcelas_porc": 0.0136239782}, {"fecha": "06/24/2023", "superficie_por": 0.0042372696, "parcelas_porc": 0.0081743869}, {"fecha": "06/25/2023", "superficie_por": 0.0147212357, "parcelas_porc": 0.0136239782}, {"fecha": "06/26/2023", "superficie_por": 0.0027520411, "parcelas_porc": 0.0081743869}, {"fecha": "06/27/2023", "superficie_por": 0.0150270181, "parcelas_porc": 0.0081743869}, {"fecha": "06/28/2023", "superficie_por": 0.0143717702, "parcelas_porc": 0.0081743869}, {"fecha": "06/29/2023", "superficie_por": 0.0030578234, "parcelas_porc": 0.0027247956}, {"fecha": "06/30/2023", "superficie_por": 0.0040188537, "parcelas_porc": 0.0054495913}, {"fecha": "07/01/2023", "superficie_por": 0.0022278428, "parcelas_porc": 0.0027247956}, {"fecha": "07/06/2023", "superficie_por": 0.0021841596, "parcelas_porc": 0.0054495913}, {"fecha": "07/07/2023", "superficie_por": 0.0042547429, "parcelas_porc": 0.0027247956}, {"fecha": "07/11/2023", "superficie_por": 0.0013367057, "parcelas_porc": 0.0027247956}, {"fecha": "07/26/2023", "superficie_por": 0.0017473277, "parcelas_porc": 0.0027247956}, {"fecha": "06/03/2024", "superficie_por": 0.0026035182, "parcelas_porc": 0.0027247956}, {"fecha": "06/08/2024", "superficie_por": 0.003599495, "parcelas_porc": 0.0027247956}]
+        },
+        {
+        "TIME_PERIOD": "FW 2022-2023",
+        "CICLO": "OI",
+        "RESULTS":[{"fecha":"11/08/2022","superficie_por":0.0139346339,"parcelas_porc":0.0256410256},{"fecha":"11/09/2022","superficie_por":0.012667849,"parcelas_porc":0.0256410256},{"fecha":"11/10/2022","superficie_por":0.0215353433,"parcelas_porc":0.0256410256},{"fecha":"11/12/2022","superficie_por":0.0114010641,"parcelas_porc":0.0256410256},{"fecha":"11/13/2022","superficie_por":0.0088674943,"parcelas_porc":0.0256410256},{"fecha":"11/15/2022","superficie_por":0.012667849,"parcelas_porc":0.0256410256},{"fecha":"11/20/2022","superficie_por":0.0595388903,"parcelas_porc":0.0512820513},{"fecha":"11/22/2022","superficie_por":0.038003547,"parcelas_porc":0.0256410256},{"fecha":"11/25/2022","superficie_por":0.0874081581,"parcelas_porc":0.0512820513},{"fecha":"11/30/2022","superficie_por":0.0785406638,"parcelas_porc":0.0512820513},{"fecha":"12/01/2022","superficie_por":0.0452242209,"parcelas_porc":0.0769230769},{"fecha":"12/02/2022","superficie_por":0.0684063846,"parcelas_porc":0.0256410256},{"fecha":"12/03/2022","superficie_por":0.0979224728,"parcelas_porc":0.0256410256},{"fecha":"12/04/2022","superficie_por":0.0152014188,"parcelas_porc":0.0256410256},{"fecha":"12/05/2022","superficie_por":0.0215353433,"parcelas_porc":0.0256410256},{"fecha":"12/10/2022","superficie_por":0.038003547,"parcelas_porc":0.0512820513},{"fecha":"12/15/2022","superficie_por":0.063339245,"parcelas_porc":0.0256410256},{"fecha":"12/17/2022","superficie_por":0.0557385356,"parcelas_porc":0.0256410256},{"fecha":"02/05/2023","superficie_por":0.0278692678,"parcelas_porc":0.0256410256},{"fecha":"02/07/2023","superficie_por":0.0114010641,"parcelas_porc":0.0256410256},{"fecha":"02/09/2023","superficie_por":0.0133012414,"parcelas_porc":0.0256410256},{"fecha":"02/11/2023","superficie_por":0.0164682037,"parcelas_porc":0.0256410256},{"fecha":"02/13/2023","superficie_por":0.0177349886,"parcelas_porc":0.0256410256},{"fecha":"02/15/2023","superficie_por":0.0443374715,"parcelas_porc":0.0256410256},{"fecha":"02/16/2023","superficie_por":0.0291360527,"parcelas_porc":0.0256410256},{"fecha":"02/17/2023","superficie_por":0.0266024829,"parcelas_porc":0.0256410256},{"fecha":"02/18/2023","superficie_por":0.0152014188,"parcelas_porc":0.0256410256},{"fecha":"02/19/2023","superficie_por":0.0139346339,"parcelas_porc":0.0256410256},{"fecha":"02/20/2023","superficie_por":0.0120344565,"parcelas_porc":0.0256410256},{"fecha":"02/21/2023","superficie_por":0.018368381,"parcelas_porc":0.0769230769},{"fecha":"02/22/2023","superficie_por":0.0036736762,"parcelas_porc":0.0256410256}]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "fecha": "6/2/2022",
+              "superficie_por": 0.117348557,
+              "parcelas_porc": 0.020833333
+            },
+            {
+              "fecha": "6/3/2022",
+              "superficie_por": 0.035416006,
+              "parcelas_porc": 0.0625
+            },
+            {
+              "fecha": "6/4/2022",
+              "superficie_por": 0.10032773,
+              "parcelas_porc": 0.125
+            },
+            {
+              "fecha": "6/5/2022",
+              "superficie_por": 0.085632731,
+              "parcelas_porc": 0.104166667
+            },
+            {
+              "fecha": "6/6/2022",
+              "superficie_por": 0.179194418,
+              "parcelas_porc": 0.166666667
+            },
+            {
+              "fecha": "6/7/2022",
+              "superficie_por": 0.163336505,
+              "parcelas_porc": 0.166666667
+            },
+            {
+              "fecha": "6/8/2022",
+              "superficie_por": 0.048630934,
+              "parcelas_porc": 0.083333333
+            },
+            {
+              "fecha": "6/9/2022",
+              "superficie_por": 0.081932551,
+              "parcelas_porc": 0.020833333
+            },
+            {
+              "fecha": "6/10/2022",
+              "superficie_por": 0.084046939,
+              "parcelas_porc": 0.083333333
+            },
+            {
+              "fecha": "6/12/2022",
+              "superficie_por": 0.047573739,
+              "parcelas_porc": 0.041666667
+            },
+            {
+              "fecha": "6/13/2022",
+              "superficie_por": 0.019029496,
+              "parcelas_porc": 0.041666667
+            },
+            {
+              "fecha": "6/17/2022",
+              "superficie_por": 0.008457554,
+              "parcelas_porc": 0.020833333
+            },
+            {
+              "fecha": "6/18/2022",
+              "superficie_por": 0.02378687,
+              "parcelas_porc": 0.041666667
+            },
+            {
+              "fecha": "6/21/2022",
+              "superficie_por": 0.005285971,
+              "parcelas_porc": 0.020833333
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "fecha": "10/29/2021",
+              "superficie_por": 0.023576256,
+              "parcelas_porc": 0.03030303
+            },
+            {
+              "fecha": "11/5/2021",
+              "superficie_por": 0.031435008,
+              "parcelas_porc": 0.03030303
+            },
+            {
+              "fecha": "11/8/2021",
+              "superficie_por": 0.03929376,
+              "parcelas_porc": 0.060606061
+            },
+            {
+              "fecha": "11/15/2021",
+              "superficie_por": 0.002986326,
+              "parcelas_porc": 0.03030303
+            },
+            {
+              "fecha": "11/16/2021",
+              "superficie_por": 0.018337088,
+              "parcelas_porc": 0.03030303
+            },
+            {
+              "fecha": "11/17/2021",
+              "superficie_por": 0.025933882,
+              "parcelas_porc": 0.060606061
+            },
+            {
+              "fecha": "11/24/2021",
+              "superficie_por": 0.094305024,
+              "parcelas_porc": 0.03030303
+            },
+            {
+              "fecha": "11/30/2021",
+              "superficie_por": 0.002619584,
+              "parcelas_porc": 0.03030303
+            },
+            {
+              "fecha": "12/2/2021",
+              "superficie_por": 0.05239168,
+              "parcelas_porc": 0.060606061
+            },
+            {
+              "fecha": "12/8/2021",
+              "superficie_por": 0.051081888,
+              "parcelas_porc": 0.03030303
+            },
+            {
+              "fecha": "12/10/2021",
+              "superficie_por": 0.02619584,
+              "parcelas_porc": 0.03030303
+            },
+            {
+              "fecha": "12/13/2021",
+              "superficie_por": 0.175512129,
+              "parcelas_porc": 0.090909091
+            },
+            {
+              "fecha": "12/14/2021",
+              "superficie_por": 0.060250432,
+              "parcelas_porc": 0.03030303
+            },
+            {
+              "fecha": "12/15/2021",
+              "superficie_por": 0.05239168,
+              "parcelas_porc": 0.060606061
+            },
+            {
+              "fecha": "12/16/2021",
+              "superficie_por": 0.082516896,
+              "parcelas_porc": 0.090909091
+            },
+            {
+              "fecha": "12/17/2021",
+              "superficie_por": 0.028815424,
+              "parcelas_porc": 0.03030303
+            },
+            {
+              "fecha": "12/18/2021",
+              "superficie_por": 0.034054592,
+              "parcelas_porc": 0.03030303
+            },
+            {
+              "fecha": "12/19/2021",
+              "superficie_por": 0.024886048,
+              "parcelas_porc": 0.03030303
+            },
+            {
+              "fecha": "12/20/2021",
+              "superficie_por": 0.036674176,
+              "parcelas_porc": 0.03030303
+            },
+            {
+              "fecha": "12/21/2021",
+              "superficie_por": 0.09168544,
+              "parcelas_porc": 0.03030303
+            },
+            {
+              "fecha": "12/22/2021",
+              "superficie_por": 0.030125216,
+              "parcelas_porc": 0.060606061
+            },
+            {
+              "fecha": "12/23/2021",
+              "superficie_por": 0.007858752,
+              "parcelas_porc": 0.03030303
+            },
+            {
+              "fecha": "12/27/2021",
+              "superficie_por": 0.007072877,
+              "parcelas_porc": 0.060606061
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "07",
+      "KPI_NAME": "Fecha de siembra B",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "Porcentaje ha",
+      "TYPE": "null",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {},
+            {}
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "08",
+      "KPI_NAME": "Fecha de cosecha",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "Porcentaje Parcelas",
+      "TYPE": "null",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [{"fecha":"04/15/2024","superficie_cosecha":0.0168100465,"parcelas_porc_cosecha":0.0192307692},{"fecha":"04/16/2024","superficie_cosecha":0.0158212202,"parcelas_porc_cosecha":0.0192307692},{"fecha":"04/17/2024","superficie_cosecha":0.0128547414,"parcelas_porc_cosecha":0.0192307692},{"fecha":"04/19/2024","superficie_cosecha":0.0257094828,"parcelas_porc_cosecha":0.0384615385},{"fecha":"04/22/2024","superficie_cosecha":0.018787699,"parcelas_porc_cosecha":0.0192307692},{"fecha":"04/25/2024","superficie_cosecha":0.0138435677,"parcelas_porc_cosecha":0.0192307692},{"fecha":"04/29/2024","superficie_cosecha":0.0128547414,"parcelas_porc_cosecha":0.0384615385},{"fecha":"05/04/2024","superficie_cosecha":0.0084050232,"parcelas_porc_cosecha":0.0192307692},{"fecha":"05/07/2024","superficie_cosecha":0.0202709384,"parcelas_porc_cosecha":0.0384615385},{"fecha":"05/08/2024","superficie_cosecha":0.0553742707,"parcelas_porc_cosecha":0.0384615385},{"fecha":"05/09/2024","superficie_cosecha":0.0266983091,"parcelas_porc_cosecha":0.0384615385},{"fecha":"05/10/2024","superficie_cosecha":0.0252150697,"parcelas_porc_cosecha":0.0192307692},{"fecha":"05/11/2024","superficie_cosecha":0.0484524869,"parcelas_porc_cosecha":0.0384615385},{"fecha":"05/13/2024","superficie_cosecha":0.0494413132,"parcelas_porc_cosecha":0.0384615385},{"fecha":"05/14/2024","superficie_cosecha":0.1094630673,"parcelas_porc_cosecha":0.0769230769},{"fecha":"05/15/2024","superficie_cosecha":0.1434786908,"parcelas_porc_cosecha":0.1153846154},{"fecha":"05/16/2024","superficie_cosecha":0.1096608326,"parcelas_porc_cosecha":0.0961538462},{"fecha":"05/17/2024","superficie_cosecha":0.0491446653,"parcelas_porc_cosecha":0.0576923077},{"fecha":"05/18/2024","superficie_cosecha":0.0683278948,"parcelas_porc_cosecha":0.0769230769},{"fecha":"05/20/2024","superficie_cosecha":0.0418273509,"parcelas_porc_cosecha":0.0576923077},{"fecha":"05/21/2024","superficie_cosecha":0.0519133788,"parcelas_porc_cosecha":0.0384615385},{"fecha":"05/22/2024","superficie_cosecha":0.0177988727,"parcelas_porc_cosecha":0.0192307692},{"fecha":"05/23/2024","superficie_cosecha":0.0454860081,"parcelas_porc_cosecha":0.0192307692},{"fecha":"05/29/2024","superficie_cosecha":0.0059329576,"parcelas_porc_cosecha":0.0192307692},{"fecha":"06/02/2024","superficie_cosecha":0.0064273707,"parcelas_porc_cosecha":0.0192307692}]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "OI",
+          "RESULTS": [{"fecha": "01/03/2023", "superficie_cosecha": 0.0048519254, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "01/05/2023", "superficie_cosecha": 0.0262870886, "parcelas_porc_cosecha": 0.0227272727}, {"fecha": "01/06/2023", "superficie_cosecha": 0.0072708968, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "01/12/2023", "superficie_cosecha": 0.0041947482, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "01/15/2023", "superficie_cosecha": 0.013730809, "parcelas_porc_cosecha": 0.0151515152}, {"fecha": "01/18/2023", "superficie_cosecha": 0.0027964988, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "01/20/2023", "superficie_cosecha": 0.0328308957, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "01/27/2023", "superficie_cosecha": 0.0033837635, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "01/30/2023", "superficie_cosecha": 0.0169467826, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "02/15/2023", "superficie_cosecha": 0.0111300652, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "11/19/2023", "superficie_cosecha": 0.0232109399, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "11/20/2023", "superficie_cosecha": 0.0185967169, "parcelas_porc_cosecha": 0.0151515152}, {"fecha": "11/26/2023", "superficie_cosecha": 0.0058726474, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "11/27/2023", "superficie_cosecha": 0.0051735227, "parcelas_porc_cosecha": 0.0151515152}, {"fecha": "11/29/2023", "superficie_cosecha": 0.0054531726, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "11/30/2023", "superficie_cosecha": 0.0076344417, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "12/19/2023", "superficie_cosecha": 0.0074107218, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "12/20/2023", "superficie_cosecha": 0.0342571101, "parcelas_porc_cosecha": 0.0303030303}, {"fecha": "12/21/2023", "superficie_cosecha": 0.0020973741, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "12/22/2023", "superficie_cosecha": 0.0091305685, "parcelas_porc_cosecha": 0.0151515152}, {"fecha": "12/23/2023", "superficie_cosecha": 0.0134092117, "parcelas_porc_cosecha": 0.0151515152}, {"fecha": "12/27/2023", "superficie_cosecha": 0.0426466064, "parcelas_porc_cosecha": 0.0454545455}, {"fecha": "12/28/2023", "superficie_cosecha": 0.0584328421, "parcelas_porc_cosecha": 0.0833333333}, {"fecha": "12/29/2023", "superficie_cosecha": 0.0283285327, "parcelas_porc_cosecha": 0.0378787879}, {"fecha": "12/30/2023", "superficie_cosecha": 0.0678150955, "parcelas_porc_cosecha": 0.0303030303}, {"fecha": "01/02/2024", "superficie_cosecha": 0.0190161917, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "01/03/2024", "superficie_cosecha": 0.0224838502, "parcelas_porc_cosecha": 0.0303030303}, {"fecha": "01/04/2024", "superficie_cosecha": 0.0215050756, "parcelas_porc_cosecha": 0.0454545455}, {"fecha": "01/05/2024", "superficie_cosecha": 0.0584048771, "parcelas_porc_cosecha": 0.0909090909}, {"fecha": "01/06/2024", "superficie_cosecha": 0.0383120333, "parcelas_porc_cosecha": 0.0227272727}, {"fecha": "01/07/2024", "superficie_cosecha": 0.0165273078, "parcelas_porc_cosecha": 0.0303030303}, {"fecha": "01/08/2024", "superficie_cosecha": 0.0313068039, "parcelas_porc_cosecha": 0.0454545455}, {"fecha": "01/09/2024", "superficie_cosecha": 0.0144858637, "parcelas_porc_cosecha": 0.0303030303}, {"fecha": "01/10/2024", "superficie_cosecha": 0.0289157974, "parcelas_porc_cosecha": 0.0303030303}, {"fecha": "01/11/2024", "superficie_cosecha": 0.0212254258, "parcelas_porc_cosecha": 0.0151515152}, {"fecha": "01/15/2024", "superficie_cosecha": 0.0451634554, "parcelas_porc_cosecha": 0.0303030303}, {"fecha": "01/16/2024", "superficie_cosecha": 0.0248608742, "parcelas_porc_cosecha": 0.0227272727}, {"fecha": "01/17/2024", "superficie_cosecha": 0.0433317487, "parcelas_porc_cosecha": 0.0378787879}, {"fecha": "01/18/2024", "superficie_cosecha": 0.0240498895, "parcelas_porc_cosecha": 0.0303030303}, {"fecha": "01/19/2024", "superficie_cosecha": 0.0048938729, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "01/20/2024", "superficie_cosecha": 0.0271959507, "parcelas_porc_cosecha": 0.0227272727}, {"fecha": "01/21/2024", "superficie_cosecha": 0.0365082916, "parcelas_porc_cosecha": 0.0303030303}, {"fecha": "01/22/2024", "superficie_cosecha": 0.0050057328, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "01/23/2024", "superficie_cosecha": 0.0219245505, "parcelas_porc_cosecha": 0.0075757576}, {"fecha": "01/27/2024", "superficie_cosecha": 0.0084314438, "parcelas_porc_cosecha": 0.0151515152}, {"fecha": "01/30/2024", "superficie_cosecha": 0.0335579854, "parcelas_porc_cosecha": 0.0075757576}]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": 
+[{"fecha":"04/30/2023","superficie_cosecha":0.009086189,"parcelas_porc_cosecha":0.0263157895},{"fecha":"05/01/2023","superficie_cosecha":0.01298027,"parcelas_porc_cosecha":0.0263157895},{"fecha":"05/02/2023","superficie_cosecha":0.0649013499,"parcelas_porc_cosecha":0.0263157895},{"fecha":"05/09/2023","superficie_cosecha":0.0253115265,"parcelas_porc_cosecha":0.0526315789},{"fecha":"05/11/2023","superficie_cosecha":0.016874351,"parcelas_porc_cosecha":0.0263157895},{"fecha":"05/15/2023","superficie_cosecha":0.05192108,"parcelas_porc_cosecha":0.0263157895},{"fecha":"05/18/2023","superficie_cosecha":0.015576324,"parcelas_porc_cosecha":0.0263157895},{"fecha":"05/19/2023","superficie_cosecha":0.027258567,"parcelas_porc_cosecha":0.0263157895},{"fecha":"05/24/2023","superficie_cosecha":0.010384216,"parcelas_porc_cosecha":0.0263157895},{"fecha":"05/25/2023","superficie_cosecha":0.027258567,"parcelas_porc_cosecha":0.0263157895},{"fecha":"05/26/2023","superficie_cosecha":0.0804776739,"parcelas_porc_cosecha":0.0789473684},{"fecha":"05/27/2023","superficie_cosecha":0.018172378,"parcelas_porc_cosecha":0.0263157895},{"fecha":"05/28/2023","superficie_cosecha":0.062305296,"parcelas_porc_cosecha":0.0526315789},{"fecha":"05/30/2023","superficie_cosecha":0.0856697819,"parcelas_porc_cosecha":0.0526315789},{"fecha":"06/03/2023","superficie_cosecha":0.02596054,"parcelas_porc_cosecha":0.0263157895},{"fecha":"06/07/2023","superficie_cosecha":0.0791796469,"parcelas_porc_cosecha":0.0263157895},{"fecha":"06/08/2023","superficie_cosecha":0.049325026,"parcelas_porc_cosecha":0.0789473684},{"fecha":"06/22/2023","superficie_cosecha":0.029854621,"parcelas_porc_cosecha":0.0263157895},{"fecha":"06/23/2023","superficie_cosecha":0.0700934579,"parcelas_porc_cosecha":0.0263157895},{"fecha":"07/24/2023","superficie_cosecha":0.027258567,"parcelas_porc_cosecha":0.0263157895},{"fecha":"07/26/2023","superficie_cosecha":0.023364486,"parcelas_porc_cosecha":0.0526315789},{"fecha":"07/28/2023","superficie_cosecha":0.0765835929,"parcelas_porc_cosecha":0.1052631579},{"fecha":"07/29/2023","superficie_cosecha":0.0037642783,"parcelas_porc_cosecha":0.0263157895},{"fecha":"07/30/2023","superficie_cosecha":0.0318016615,"parcelas_porc_cosecha":0.0526315789},{"fecha":"07/31/2023","superficie_cosecha":0.0746365524,"parcelas_porc_cosecha":0.0526315789}]
+
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "fecha": "11/20/2022",
+              "superficie_cosecha": 0.013685132,
+              "parcelas_porc_cosecha": 0.019230769
+            },
+            {
+              "fecha": "11/21/2022",
+              "superficie_cosecha": 0.021896212,
+              "parcelas_porc_cosecha": 0.038461538
+            },
+            {
+              "fecha": "11/26/2022",
+              "superficie_cosecha": 0.031202102,
+              "parcelas_porc_cosecha": 0.038461538
+            },
+            {
+              "fecha": "11/27/2022",
+              "superficie_cosecha": 0.056382746,
+              "parcelas_porc_cosecha": 0.096153846
+            },
+            {
+              "fecha": "11/28/2022",
+              "superficie_cosecha": 0.038318371,
+              "parcelas_porc_cosecha": 0.019230769
+            },
+            {
+              "fecha": "12/2/2022",
+              "superficie_cosecha": 0.045982045,
+              "parcelas_porc_cosecha": 0.057692308
+            },
+            {
+              "fecha": "12/3/2022",
+              "superficie_cosecha": 0.068425662,
+              "parcelas_porc_cosecha": 0.096153846
+            },
+            {
+              "fecha": "12/4/2022",
+              "superficie_cosecha": 0.17670243,
+              "parcelas_porc_cosecha": 0.096153846
+            },
+            {
+              "fecha": "12/5/2022",
+              "superficie_cosecha": 0.013685132,
+              "parcelas_porc_cosecha": 0.019230769
+            },
+            {
+              "fecha": "12/6/2022",
+              "superficie_cosecha": 0.142872783,
+              "parcelas_porc_cosecha": 0.134615385
+            },
+            {
+              "fecha": "12/7/2022",
+              "superficie_cosecha": 0.034486534,
+              "parcelas_porc_cosecha": 0.019230769
+            },
+            {
+              "fecha": "12/8/2022",
+              "superficie_cosecha": 0.124808408,
+              "parcelas_porc_cosecha": 0.115384615
+            },
+            {
+              "fecha": "12/9/2022",
+              "superficie_cosecha": 0.041055397,
+              "parcelas_porc_cosecha": 0.057692308
+            },
+            {
+              "fecha": "12/11/2022",
+              "superficie_cosecha": 0.032844318,
+              "parcelas_porc_cosecha": 0.038461538
+            },
+            {
+              "fecha": "12/13/2022",
+              "superficie_cosecha": 0.024633238,
+              "parcelas_porc_cosecha": 0.019230769
+            },
+            {
+              "fecha": "12/14/2022",
+              "superficie_cosecha": 0.099080359,
+              "parcelas_porc_cosecha": 0.076923077
+            },
+            {
+              "fecha": "12/17/2022",
+              "superficie_cosecha": 0.015327348,
+              "parcelas_porc_cosecha": 0.019230769
+            },
+            {
+              "fecha": "12/24/2022",
+              "superficie_cosecha": 0.01861178,
+              "parcelas_porc_cosecha": 0.038461538
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "fecha": "4/20/2022",
+              "superficie_cosecha": 0.055011264,
+              "parcelas_porc_cosecha": 0.060606061
+            },
+            {
+              "fecha": "4/29/2022",
+              "superficie_cosecha": 0.03929376,
+              "parcelas_porc_cosecha": 0.060606061
+            },
+            {
+              "fecha": "5/4/2022",
+              "superficie_cosecha": 0.002986326,
+              "parcelas_porc_cosecha": 0.03030303
+            },
+            {
+              "fecha": "5/27/2022",
+              "superficie_cosecha": 0.002619584,
+              "parcelas_porc_cosecha": 0.03030303
+            },
+            {
+              "fecha": "5/30/2022",
+              "superficie_cosecha": 0.036674176,
+              "parcelas_porc_cosecha": 0.060606061
+            },
+            {
+              "fecha": "6/1/2022",
+              "superficie_cosecha": 0.094305024,
+              "parcelas_porc_cosecha": 0.03030303
+            },
+            {
+              "fecha": "6/4/2022",
+              "superficie_cosecha": 0.051081888,
+              "parcelas_porc_cosecha": 0.03030303
+            },
+            {
+              "fecha": "6/7/2022",
+              "superficie_cosecha": 0.02619584,
+              "parcelas_porc_cosecha": 0.03030303
+            },
+            {
+              "fecha": "6/16/2022",
+              "superficie_cosecha": 0.107402944,
+              "parcelas_porc_cosecha": 0.121212121
+            },
+            {
+              "fecha": "6/18/2022",
+              "superficie_cosecha": 0.060250432,
+              "parcelas_porc_cosecha": 0.03030303
+            },
+            {
+              "fecha": "6/19/2022",
+              "superficie_cosecha": 0.05239168,
+              "parcelas_porc_cosecha": 0.060606061
+            },
+            {
+              "fecha": "6/20/2022",
+              "superficie_cosecha": 0.082516896,
+              "parcelas_porc_cosecha": 0.090909091
+            },
+            {
+              "fecha": "6/21/2022",
+              "superficie_cosecha": 0.036412218,
+              "parcelas_porc_cosecha": 0.060606061
+            },
+            {
+              "fecha": "6/22/2022",
+              "superficie_cosecha": 0.154555457,
+              "parcelas_porc_cosecha": 0.060606061
+            },
+            {
+              "fecha": "6/23/2022",
+              "superficie_cosecha": 0.024886048,
+              "parcelas_porc_cosecha": 0.03030303
+            },
+            {
+              "fecha": "6/24/2022",
+              "superficie_cosecha": 0.036674176,
+              "parcelas_porc_cosecha": 0.03030303
+            },
+            {
+              "fecha": "6/25/2022",
+              "superficie_cosecha": 0.09168544,
+              "parcelas_porc_cosecha": 0.03030303
+            },
+            {
+              "fecha": "6/26/2022",
+              "superficie_cosecha": 0.030125216,
+              "parcelas_porc_cosecha": 0.060606061
+            },
+            {
+              "fecha": "6/27/2022",
+              "superficie_cosecha": 0.007858752,
+              "parcelas_porc_cosecha": 0.03030303
+            },
+            {
+              "fecha": "6/30/2022",
+              "superficie_cosecha": 0.007072877,
+              "parcelas_porc_cosecha": 0.060606061
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "09",
+      "KPI_NAME": "Fecha de cosecha B",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "Porcentaje ha",
+      "TYPE": "null",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {},
+            {}
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "10",
+      "KPI_NAME": "Rendimiento por hectárea",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "ton/ha",
+      "TYPE": "Adopcion",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "tipo": "",
+              "inno": 11.6
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "tipo": "Temporal",
+              "inno": 7.7
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "tipo": "",
+              "inno": 12.1
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "tipo": "Temporal",
+              "inno": 9.87
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "tipo": "",
+              "inno": 12,
+              "cg": 12.21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "11",
+      "KPI_NAME": "Rendimiento por hectárea B",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "ton/ha",
+      "TYPE": "Validacion",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": " ",
+              "inno": 14.0,
+              "cg":13.4
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "variedad": "Rainfed",
+              "inno": 8.7,
+              "cg": 7.4
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": " ",
+              "inno": 13.2,
+              "cg": 12.5
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "variedad": "Rainfed",
+              "inno": 8.95,
+              "cg": 8.43
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": " ",
+              "inno": 13.13,
+              "cg": 13.10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "12",
+      "KPI_NAME": "Ingreso por hectárea",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "MXN/ha",
+      "TYPE": "Adopción",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "ingreso_aa": 50635
+
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "ingreso_aa": 38431
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "ingreso_aa": 62769
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "ingreso_aa": 72493
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "ingreso_aa": 80007
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "13",
+      "KPI_NAME": "Ingreso por hectárea B",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "MXN/ha",
+      "TYPE": "Validacion",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": " ",
+              "inno": 61600,
+              "cg": 58960
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "variedad": "Rainfed",
+              "inno": 44297,
+              "cg": 38576
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": " ",
+              "inno": 68848,
+              "cg": 65000
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "variedad": "Rainfed",
+              "inno": 70645,
+              "cg": 66490
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": " ",
+              "inno": 93870,
+              "cg": 93625
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "14",
+      "KPI_NAME": "Ingreso por tonelada",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "MXN/ton",
+      "TYPE": "Adopción",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "ingreso_ton_aa": 4400
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "ingreso_ton_aa": 5042
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "ingreso_ton_aa": 5200
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "ingreso_ton_aa": 7743
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "ingreso_ton_aa": 7000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "15",
+      "KPI_NAME": "Ingreso por tonelada B",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "MXN/ton",
+      "TYPE": "Validacion",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": " ",
+              "inno": 4400,
+              "cg": 4400
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "variedad": "Rainfed",
+              "inno": 5081,
+              "cg": 5085
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": " ",
+              "inno": 5200,
+              "cg": 5200
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "variedad": "Rainfed",
+              "inno": 7900,
+              "cg": 7900
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": " ",
+              "inno": 7000,
+              "cg": 7000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "16",
+      "KPI_NAME": "Costo por hectárea",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "MXN/ha",
+      "TYPE": "Adopción",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "costo_ha": 36725
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "costo_ha": 29956
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "costo_ha": 34349
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "costo_ha": 39517
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "costo_ha": 43323
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "17",
+      "KPI_NAME": "Costo por hectárea B",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "MXN/ha",
+      "TYPE": "Validacion",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": "",
+              "inno": 34854
+              ,
+              "cg": 39269
+
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "variedad": "Rainfed",
+              "inno": 30955,
+              "cg": 27440
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": "",
+              "inno": 40010,
+              "cg": 39855
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "variedad": "Rainfed",
+              "inno": 40098,
+              "cg": 40115
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": "",
+              "inno": 44549,
+              "cg": 46934
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "18",
+      "KPI_NAME": "Costo por tonelada",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "MXN/ton",
+      "TYPE": "Adopción",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "costo_ton": 3220
+
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "costo_ton": 4092
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "costo_ton": 2850
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "costo_ton": 4738
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "costo_ton": 3853
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "19",
+      "KPI_NAME": "Costo por tonelada B",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "MXN/ton",
+      "TYPE": "Validacion",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": "",
+              "inno": 2490
+              ,
+              "cg": 2931
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "variedad": "Rainfed",
+              "inno": 3855,
+              "cg": 4231
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": "",
+              "inno": 3007,
+              "cg": 3262
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "variedad": "Rainfed",
+              "inno": 5026,
+              "cg": 5257
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": "",
+              "inno": 3383,
+              "cg": 3581
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "20",
+      "KPI_NAME": "Utilidad por hectárea",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "MXN/ha",
+      "TYPE": "Adopción",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "utilidad_ha": 13910
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "utilidad_ha": 8475
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "utilidad_ha": 28330
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "utilidad_ha": 32976
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "utilidad_ha": 36684
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "21",
+      "KPI_NAME": "Utilidad por hectárea B",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "MXN/ha",
+      "TYPE": "Validacion",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": "",
+              "inno": 26746
+              ,
+              "cg": 19691
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "variedad": "Rainfed",
+              "inno": 13342,
+              "cg": 11136
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": "",
+              "inno": 28838,
+              "cg": 25145
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "variedad": "Rainfed",
+              "inno": 30547,
+              "cg": 26375
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": "",
+              "inno": 49321,
+              "cg": 46691
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "22",
+      "KPI_NAME": "Utilidad por tonelada",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "MXN/ton",
+      "TYPE": "Adopción",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "utilidad_ton": 1180
+
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "utilidad_ton": 950
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "utilidad_ton": 2350
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "utilidad_ton": 2874
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "utilidad_ton": 3147
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "23",
+      "KPI_NAME": "Utilidad por tonelada B",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "MXN/ton",
+      "TYPE": "Validacion",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": "",
+              "inno": 1910
+              ,
+              "cg": 1469
+
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "variedad": "",
+              "inno": 1226,
+              "cg": 854
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": "",
+              "inno": 2193,
+              "cg": 1938
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "variedad": "",
+              "inno": 2874,
+              "cg": 2643
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2021-2022",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "variedad": "",
+              "inno": 3617,
+              "cg": 3419
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "24",
+      "KPI_NAME": "Capacitación a productores",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "Número de productores",
+      "TYPE": "Adopción",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "gen": "Men",
+              "value": 14
+            },
+            {
+              "gen": "Women",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "gen": "Men",
+              "value": 46
+            },
+            {
+              "gen": "Women",
+              "value": null
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "gen": "Men",
+              "value": 25
+            },
+            {
+              "gen": "Women",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "gen": "Men",
+              "value": 57
+            },
+            {
+              "gen": "Women",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "25",
+      "KPI_NAME": "Capacitación a productores B",
+      "FREQ": "Ciclo Agronómico",
+      "TOPIC": "Comunidad y gestión en la operación agrícola",
+      "UNIT": "Número de productores",
+      "TYPE": "Validacion",
+      "NOTE": "null",
+      "SOURCE": "API",
+      "LASTUPDATE": " ",
+      "STATUS": "OK",
+      "OBSERVATIONS": [
+        {
+          "TIME_PERIOD": "FW 2023-2024",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "tipo": "Farmers",
+              "numero": 16
+            },
+            {
+              "tipo": "Technicians",
+              "numero": 0
+            },
+            {
+              "tipo": "Others",
+              "numero": 0
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2023",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "tipo": "Farmers",
+              "numero": 37
+            },
+            {
+              "tipo": "Technicians",
+              "numero": 8
+            },
+            {
+              "tipo": "Others",
+              "numero": 1
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "FW 2022-2023",
+          "CICLO": "OI",
+          "RESULTS": [
+            {
+              "tipo": "Farmers",
+              "numero": 19
+            },
+            {
+              "tipo": "Technicians",
+              "numero": 3
+            },
+            {
+              "tipo": "Others",
+              "numero": 6
+            }
+          ]
+        },
+        {
+          "TIME_PERIOD": "SS 2022",
+          "CICLO": "Primavera-Verano",
+          "RESULTS": [
+            {
+              "tipo": "Farmers",
+              "numero": 46
+            },
+            {
+              "tipo": "Technicians",
+              "numero": 4
+            },
+            {
+              "tipo": "Others",
+              "numero": 11
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

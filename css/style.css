@@ -1,0 +1,664 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+body,
+button {
+  font-family: "Inter", sans-serif;
+}
+:root {
+  --offcanvas-width: 270px;
+  --topNavbarHeight: 56px;
+}
+.sidebar-nav {
+  width: var(--offcanvas-width);
+
+}
+.sidebar-link {
+  display: flex;
+  align-items: center;
+}
+.sidebar-link .right-icon {
+  display: inline-flex;
+}
+.sidebar-link[aria-expanded="true"] .right-icon {
+  transform: rotate(180deg);
+}
+@media (min-width: 992px) {
+  body {
+    overflow: auto !important;
+  }
+  main {
+    margin-left: var(--offcanvas-width);
+  }
+  /* this is to remove the backdrop */
+  .offcanvas-backdrop::before {
+    display: none;
+  }
+  .sidebar-nav {
+    -webkit-transform: none;
+    transform: none;
+    visibility: visible !important;
+    height: calc(100% - var(--topNavbarHeight));
+    top: var(--topNavbarHeight);
+  }
+}
+.bg-cimmyt {
+  background: #2193b0;  /* fallback for old browsers */
+  background:  url("../images/background.png"),-webkit-linear-gradient(to right, #76bb43, #26927b); /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/background.png"), linear-gradient(to right, #76bb43, #289981); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size:inherit;
+
+}
+.bg-cimmyt-gestion {
+  background: #4d0cad;  /* fallback for old browsers */
+  background:  url("../images/background.png"),-webkit-linear-gradient(to right, #6d46a7, #4d0cad); /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/background.png"), linear-gradient(to right, #6d46a7, #4d0cad); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size:inherit;
+
+}
+.navbar-light .navbar-brand {
+  color: rgb(42 154 127);
+}
+
+.bg-cimmyt-transparent {
+  background: transparent;
+}
+.pb-21 {
+  padding-bottom: 6rem!important;
+}
+/*
+.pb-21 {
+  padding-bottom: 9.5rem!important;
+}
+*/
+.pt-10 {
+  padding-top: 6rem!important;
+}
+.px-6 {
+  padding-left: 1rem!important;
+  padding-right: 1rem!important;
+}
+h4 {
+
+text-align: left;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.mt-n22 {
+  margin-top: -8rem!important;
+}
+.prep-suelo{
+  background-image:  linear-gradient(transparent, rgba(0, 0, 0, 0.5)),url('../images/suelo.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  overflow: hidden;
+  font-size: 1.5rem;
+  text-align: center;
+
+}
+.prep-suelo:hover{
+  opacity: .8;
+
+}
+.siembra{
+  background-image:  linear-gradient(transparent, rgba(0, 0, 0, 0.5)),url('../images/siembra.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  overflow: hidden;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.siembra:hover{
+  opacity: .8;
+
+}
+
+.ferti{
+  background-image:  linear-gradient(transparent, rgba(0, 0, 0, 0.5)),url('../images/back_ferti.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  overflow: hidden;
+  font-size: 1.5rem;
+  text-align: center;
+
+
+}
+.ferti:hover{
+  opacity: .8;
+
+}
+.agua{
+  background-image:  linear-gradient(transparent, rgba(0, 0, 0, 0.5)),url('../images/back_agua.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  overflow: hidden;
+  font-size: 1.5rem;
+  text-align: center;
+
+
+}
+.agua:hover{
+  opacity: .8;
+
+}
+.malezas{
+  background-image:  linear-gradient(transparent, rgba(0, 0, 0, 0.5)),url('../images/back_malezas2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  overflow: hidden;
+  font-size: 1.5rem;
+  text-align: center;
+
+
+}
+.malezas:hover{
+  opacity: .8;
+
+}
+.plagas{
+  background-image:  linear-gradient(transparent, rgba(0, 0, 0, 0.5)),url('../images/back_plagas.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  overflow: hidden;
+  font-size: 1.5rem;
+  text-align: center;
+
+
+}
+.plagas:hover{
+  opacity: .8;
+
+}
+.siembra-banner{
+  background-image:  linear-gradient(transparent, rgba(0, 0, 0, 0.5)),url('../images/siembra.jpg');
+  background-size:cover;
+  background-position:center;
+}
+.prep-suelo-banner{
+  background-image:  linear-gradient(transparent, rgba(0, 0, 0, 0.5)),url('../images/suelo.jpg');
+  background-size:cover;
+  background-position:center;
+}
+.ferti-banner{
+  background-image:  linear-gradient(transparent, rgba(0, 0, 0, 0.5)),url('../images/back_ferti.jpg');
+  background-size:cover;
+  background-position:center;
+  
+}
+.agua-banner{
+  background-image:  linear-gradient(transparent, rgba(0, 0, 0, 0.5)),url('../images/back_agua.jpg');
+  background-size:cover;
+  background-position:center;
+}
+.malezas-banner{
+  background-image:  linear-gradient(transparent, rgba(0, 0, 0, 0.5)),url('../images/back_malezas2.jpg');
+  background-size:cover;
+  background-position:center;
+}
+.plagas-banner{
+  background-image:  linear-gradient(transparent, rgba(0, 0, 0, 0.5)),url('../images/back_plagas.jpg');
+  background-size:cover;
+  background-position:center;
+}
+#chartdiv {
+  width: 100%;
+  height: 350px;
+}
+
+
+
+.text-justify{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#serieActividades{
+  width: 100%;
+  height: 400px;
+}
+/*Alcance del hub*/
+#producGenero{
+  width: 100%;
+  height: 400px;
+}
+#producMunicipio{
+  width: 100%;
+  height: 400px;
+}
+#hectaTipoParcela{
+  width: 100%;
+  height: 400px;
+}
+#hectaMunicipio{
+  width: 100%;
+  height: 400px;
+}
+/*Tecnologías*/
+#superficieTec{
+  width: 100%;
+  height: 600px;
+}
+/*fertilizacion*/
+#etapa{
+  width: 100%;
+  height: 400px;
+}
+#producFertikg{
+  width: 100%;
+  height: 350px;
+}
+#producFertilt{
+  width: 100%;
+  height: 350px;
+}
+#consumoPromedio{
+  width: 100%;
+  height: 350px;
+}
+#siembraHa{
+  width: 100%;
+  height: 400px;
+}
+#serieActividadesSup{
+  width: 100%;
+  height: 400px;
+}
+#CostopromedioEtapa{
+  width: 100%;
+  height: 350px;
+}
+#producMalezaL{
+  width: 100%;
+  height: 350px;
+}
+#producMalezakg{
+  width: 100%;
+  height: 350px;
+}
+#producbio{
+  width: 100%;
+  height: 400px;
+}
+#producPlagaskg{
+  width: 100%;
+  height: 350px;
+}
+#analisissuelo{
+  width: 100%;
+  height: 400px;
+}
+#myDiv{
+  width: 100%;
+  height: 350px;
+}
+.text-informativo {
+  font-size: 10px;
+  text-align: right;
+  font-style: italic;
+
+}
+#fertipro{
+  width: 100%;
+  height: 400px;
+}
+#hectaParcela{
+  width: 100%;
+  height: 400px;
+} 
+#labranza{
+  width: 100%;
+  height: 400px;
+} 
+#cosechaActividades{
+  width: 100%;
+  height: 400px;
+}
+#cosechaHa{
+  width: 100%;
+  height: 400px;
+}
+#CTAA{
+  width: 100%;
+  height: 400px;
+}
+#CTVP{
+  width: 100%;
+  height: 400px;
+}
+#UTVP{
+  width: 100%;
+  height: 400px;
+}
+#UTAA{
+  width: 100%;
+  height: 400px;
+}
+#IRAA{
+  width: 100%;
+  height: 400px;
+}
+#IRVP{
+  width: 100%;
+  height: 400px;
+}
+#PEG{
+  width: 100%;
+  height: 400px;
+}
+#PER{
+  width: 100%;
+  height: 400px;
+}
+#variedades{
+  width: 100%;
+  height: 400px;
+}
+#TSemilla{
+  width: 100%;
+  height: 350px;
+}
+#MMalezas{
+  width: 100%;
+  height: 350px;
+}
+#Mplagas{
+  width: 100%;
+  height: 350px;
+}
+.navbar-nav li.active, .nav.child_menu li:hover {
+  background-color: rgb(47 226 90 / 20%);
+}
+#CO2{
+  width: 100%;
+  height: 400px;
+}
+#MP{
+  width: 100%;
+  height: 400px;
+}
+#CTVP2{
+  width: 100%;
+  height: 400px;
+}
+#CTAA2{
+  width: 100%;
+  height: 400px;
+}
+#UTAA2{
+  width: 100%;
+  height: 400px;
+}
+#UTVP2{
+  width: 100%;
+  height: 400px;
+}
+#IRAA2{
+  width: 100%;
+  height: 400px;
+}
+#IRVP2{
+  width: 100%;
+  height: 400px;
+}
+#producMun{
+  width: 100%;
+  height: 400px;
+}
+#numParcela{
+  width: 100%;
+  height: 400px;
+}
+p.method-kpi{
+  font-size: 1rem;
+}
+#boxplot{
+  width: 100%;
+  height: 400px;
+}
+#consumoCombustible{
+  width: 100%;
+  height: 400px;
+}
+#costosPrepSuelo{
+  width: 100%;
+  height: 400px;
+}
+.result-counter-naunidades{
+  font-size: 4.5rem;
+  color: #539b9d;
+  text-align: center;
+}
+/* .result-counter-naunidades::before{
+  content:"$ ";
+  }
+.result-counter-naunidades::after{
+content:" MXN";
+} */
+.result-counter-percent{
+  font-size: 4rem;
+  color: #539b9d;
+  text-align: center;
+}
+
+.result-counter-percent::after{
+content:" %";
+}
+
+.pesos-result-counter{
+  font-size: 4.5rem;
+  color: #539b9d;
+  text-align: center;
+}
+.pesos-result-counter::before{
+  content:"$ ";
+  }
+.pesos-result-counter::after{
+content:" MXN";
+}
+
+
+.result-counter-tonHA{
+  font-size: 4.5rem;
+  color: #539b9d;
+  text-align: center;
+}
+
+.result-counter-tonHA::after{
+font-size: 2.5rem;
+content:" (ton/ha)";
+}
+
+.result-counter-co2{
+  font-size: 4.5rem;
+  color: #539b9d;
+  text-align: center;
+}
+
+.result-counter-co2::after{
+font-size: 2.5rem;
+content:" CO2e";
+}
+
+.result-counter-ha{
+  font-size: 4.5rem;
+  color: #539b9d;
+  text-align: center;
+}
+
+.result-counter-ha::after{
+font-size: 2.5rem;
+content:" (ha)";
+}
+#densidad{
+  width: 100%;
+  height: 400px;
+}
+#rendimientoAA{
+  width: 100%;
+  height: 400px;
+}
+#rendimientoVP{
+  width: 100%;
+  height: 400px;
+}
+#apnitro{
+  width: 100%;
+  height: 400px;
+}
+#producbio{
+  width: 100%;
+  height: 400px; 
+}
+.kpi-container-red {
+  display: flex;
+  flex-direction:column;
+  word-wrap: break-word;
+  align-items: left;
+  border-left: solid 6px #eb3333;
+  padding-left: 35px;
+  line-height: 15px;
+}
+h4.kpi-red {
+  color: #eb1b1b;
+  font-size: 1rem;
+  margin-bottom: 35px;
+  margin-top: 5px;
+}
+span.number-kpi-red {
+  padding-left: 10px;
+  color: #eb1b1b;
+  font-size: 2rem;
+  margin-bottom: 45px;
+  font-weight: 500;
+}
+p.kpi-red {
+  line-height: 30px;
+  font-weight: 500;
+  color: #eb1b1b;
+  font-size: 1rem;
+}
+.kpi-container-green {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  align-items: left;
+  border-left: solid 6px #1aaf1a;
+  padding-left: 35px;
+  line-height: 15px;
+}
+h4.kpi-green {
+  color: #1aaf1a;
+  font-size: 1rem;
+  margin-bottom: 35px;
+  margin-top: 5px;
+}
+p.kpi-green {
+  line-height: 30px;
+  font-weight: 500;
+  color: #1aaf1a;
+  font-size: 1rem;
+}
+span.number-kpi-green {
+  padding-left: 10px;
+  color: #1aaf1a;
+  font-size: 2rem;
+  margin-bottom: 45px;
+  font-weight: 500;
+}
+.kpi-container {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  align-items: left;
+  border-left: solid 6px #fac05e;
+  padding-left: 35px;
+  line-height: 15px;
+}
+h4.kpi {
+  color: #f39112;
+  font-size: 1rem;
+  margin-bottom: 35px;
+  margin-top: 5px;
+}
+span.number-kpi-no {
+  padding-left: 10px;
+  color: #f39112;
+  font-size: 2rem;
+  margin-bottom: 45px;
+  font-weight: 500;
+}
+p.kpi {
+  line-height: 30px;
+  font-weight: 500;
+  color: #f39112;
+  font-size: 1rem;
+}
+.ticker-container {
+  position: relative;
+  overflow: hidden;
+  background-color: #222; /* Fondo oscuro más oscuro */
+  color: #fff;
+  padding: 10px;
+}
+
+#ticker-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  animation: tickerMove 35s linear infinite;
+}
+#ticker-list:hover {
+  animation-play-state: paused ;
+}
+
+#ticker-list li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.ticker-btn {
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo transparente para los botones */
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.ticker-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  /* Color de fondo más oscuro al pasar el ratón */
+}
+
+#prevBtn {
+  left: 10px;
+}
+
+#nextBtn {
+  right: 10px;
+}
+
+
+#test{
+  width: 100%;
+  height: 400px;
+}
+@keyframes tickerMove {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}

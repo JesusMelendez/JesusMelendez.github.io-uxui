@@ -1,0 +1,425 @@
+{"Header":{"Name":"Ingredion","Dimension":"Selección y multiplicación del material vegetal"},
+    "KPI_SET":[
+    {   "ID":"01",
+        "KPI_NAME":"Número de híbridos de cultivo en uso",
+        "FREQ":"Ciclo Agronómico",
+        "TOPIC":"Híbridos de cultivo en uso (Superficie por variedad)",
+        "UNIT":"ha",
+        "TYPE":"seed",
+        "NOTE":"null",
+        "SOURCE":"API",
+        "LASTUPDATE":" ",
+        "STATUS":"OK",
+        "OBSERVATIONS":[
+          {   
+            "TIME_PERIOD":"FW 2023-2024",
+            "RESULTS":[
+              {
+                "seed": "32T83",
+                "val": 136
+
+              },
+              {
+                "seed": "P2807",
+                "val": 742
+
+              },
+              {
+                "seed": "P2807Y",
+                "val": 112
+
+              }
+            ]},
+          {   
+            "TIME_PERIOD":"SS 2023",
+            "RESULTS":[{
+                "seed": "ANTILOPE_Y",
+                "val": 761
+              },
+              {
+                "seed": "30F53EWAXY",
+                "val": 652
+              },
+              {
+                "seed": "NK307",
+                "val": 199
+              },
+              {
+                "seed": "P3095Y",
+                "val": 125
+              },
+             {
+              "seed": "DK4020Y",
+                "val": 117
+              },
+             {
+              "seed": "XR860",
+                "val": 81
+              },
+              {
+                "seed": "Others",
+                  "val": 273
+              }
+            ]
+        },
+          {   
+            "TIME_PERIOD":"FW 2022-2023",
+            "RESULTS":[{
+                "seed": "CARYBU Y",
+                "val": 228.4
+              },
+              {
+                "seed": "DK-1050",
+                "val": 142.65
+
+              },
+              {
+                "seed": "DK-4050",
+                "val": 132
+              },
+              {
+                "seed": "HIPOPOTAMO",
+                "val": 64
+              },
+              {
+                "seed": "P2807",
+                "val": 15
+              },
+              {
+                "seed": "P3230W",
+                "val": 138
+              }
+            ]},
+            {   
+                "TIME_PERIOD":"SS 2022",
+                "RESULTS":[{
+                    "seed": "P 30F53 E",
+                    "val": 55
+
+                  },
+                  {
+                    "seed": "ANTILOPE Y",
+                    "val": 36
+
+                  },
+                  {
+                    "seed": "DK 2061 Y",
+                    "val": 30
+
+                  },
+                  {
+                    "seed": "P 3095 Y",
+                    "val": 30
+
+                  },
+                 {
+                    "seed": "DK 4020 Y",
+                    "val": 19
+
+
+                  },
+                 {
+                    "seed": "Others",
+                    "val": 19.3
+                  }]
+            },
+
+            {   
+                "TIME_PERIOD":"FW 2021-2022",
+                "RESULTS":[{
+                    "seed": "CARYBU Y",
+                    "val": 179
+                  },
+                  {
+                    "seed": "DK-1050",
+                    "val": 57
+                  },
+                  {
+                    "seed": "P3201",
+                    "val": 85
+                  },
+                  {
+                    "seed": "P32T83",
+                    "val": 17
+                  }
+]
+            }
+
+        ]
+    },
+    {   "ID":"02",
+    "KPI_NAME":"Densidad de siembra (Superficie por rango de densidad)",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Híbridos de cultivo en uso (Superficie por variedad)",
+    "UNIT":"ha",
+    "TYPE":"seed",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":" ",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"FW 2023-2024",
+        "RESULTS":[
+          
+            {
+            
+            "Furrow":
+            [        
+                    {
+                    "densi": "<=107000",
+                    "val": 683
+
+                    },
+                    {
+                    "densi": ">107000",
+                    "val": 306
+
+                    }
+            ]
+            }
+        ]
+    },
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "RESULTS":[
+          
+        {
+
+            "Bed":
+            [
+                {
+                "densi": "<=90,000",
+                "val": 652
+
+                },
+                {
+                "densi": "90001-93000",
+                "val": 338
+
+                },
+                {
+                "densi": ">93001",
+                "val": 41
+
+                }
+            ],
+          "Flat":
+          [
+                {
+                "densi": "<=90,000",
+                "val": 790
+
+                },
+                {
+                "densi": "90001-93000",
+                "val": 280
+                },
+                {
+                "densi": ">93001",
+                "val": 92
+                }
+           ],
+           "Furrow":[
+            {
+              "densi": "<=90,000",
+              "val": 15
+            }
+           ]
+        }
+      ]
+    },
+
+      {   
+        "TIME_PERIOD":"FW 2022-2023",
+        "RESULTS":[
+          
+            {
+            
+            "Furrow":
+            [        
+                    {
+                    "densi": "<=110000",
+                    "val": 322.3
+                    },
+                    {
+                    "densi": ">110000",
+                    "val": 200.35
+                    }
+            ],
+
+                "Bed":
+                [
+
+                    {
+                    "densi": ">110000",
+                    "val": 11
+                     }
+                ],
+            "Flat":
+            [        
+                    {
+                    "densi": ">110000",
+                    "val": 186.4
+                    }
+            ]
+            }
+        ]
+    },
+        {   
+            "TIME_PERIOD":"SS 2022",
+            "RESULTS":[
+            {
+
+                "Bed":
+                [
+                    {
+                    "densi": "<=90,000",
+                    "val": 18
+                    },
+                    {
+                    "densi": "90001-93000",
+                    "val": 73.7
+                    },
+                    {
+                    "densi": ">93001",
+                    "val": 9
+                    }
+                ],
+              "Flat":
+              [
+                    {
+                    "densi": "<=90,000",
+                    "val": 38
+                    },
+                    {
+                    "densi": "90001-93000",
+                    "val": 34
+                    },
+                    {
+                    "densi": ">93001",
+                    "val": 17
+                    }
+               ]
+            }
+        ]
+    },
+    {   
+        "TIME_PERIOD":"FW 2021-2022",
+        "RESULTS":[
+            {
+
+                "Flat":
+                [
+
+                    {
+                    "densi": "100000-105000",
+                    "val": 1.14 
+                     },
+                    {
+                    "densi": "105000-108000",
+                    "val": 179.4
+                    }
+                ],
+            "Furrow":
+            [
+                    {
+                    "densi": "105000-108000",
+                    "val": 157.85
+                    }
+            ]
+            }
+        ]
+    }
+
+    ]
+    },
+    {   "ID":"03",
+    "KPI_NAME":"Capacitación a productores",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Selección y multiplicación del material vegetal",
+    "UNIT":"Número de productores",
+    "TYPE":"Adopción",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":" ",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "CICLO":"Primavera-Verano",
+        "RESULTS":[
+          {
+            "gen": "Men",
+            "value": 68
+          },
+          {
+            "gen": "Women",
+            "value": 7
+          }
+        ]
+    },
+      {   
+          "TIME_PERIOD":"SS 2022",
+          "CICLO":"Primavera-Verano",
+          "RESULTS":[
+            {
+              "gen": "Men",
+              "value": 37
+            },
+            {
+              "gen": "Women",
+              "value": 3
+            }
+          ]
+      }
+    ]
+    },
+    {   "ID":"04",
+    "KPI_NAME":"Capacitación a productores B",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Selección y multiplicación del material vegetal",
+    "UNIT":"Número de productores",
+    "TYPE":"Validacion",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":" ",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "CICLO":"Primavera-Verano",
+        "RESULTS":[
+          {
+            "tipo": "Farmers",
+            "numero":   68
+          },
+          {
+            "tipo": "Technicians",
+            "numero":   4
+          },
+          {
+            "tipo": "Others",
+            "numero":   3
+          }
+        ]
+    },
+
+      {   
+          "TIME_PERIOD":"SS 2022",
+          "CICLO":"Primavera-Verano",
+          "RESULTS":[
+            {
+              "tipo": "Farmers",
+              "numero":   39
+            },
+            {
+              "tipo": "Technicians",
+              "numero":   1
+            }
+          ]
+      }
+      ]
+    }
+    ]
+} 

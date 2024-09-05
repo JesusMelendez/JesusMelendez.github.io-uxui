@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/dataTables.bootstrap5.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.21/esri/themes/light/main.css">
+    <title>e-Agropulse</title>
+  </head>
+  <body>
+
+  <script>
+      if (sessionStorage.getItem("name") == null) {
+          window.location = "login.html";
+      }
+  </script>
+  <style>
+    
+    .card {
+        transition: transform 0.2s, box-shadow 0.2s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    }
+    .card-icon {
+        font-size: 2rem;
+        color: #4ceb54;
+    }
+    .card-title {
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    .result {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #28a745;
+    }
+    .card-footer {
+        background-color: #f8f9fa;
+    }
+
+    /*otro*/
+    
+    .indicator-card {
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+  .indicator-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    }
+
+  .card-footer {
+      background-color: #ffffff;
+      border-top: none;
+      border-radius: 0 0 20px 20px;
+    }
+    .card-icon {
+      font-size: 2rem;
+      color: #e4f0e4;
+  }
+  .card-body {
+      padding: 20px;
+    }
+
+  .icon-container {
+      background-color: #e9ecef;
+      padding: 10px;
+      border-radius: 50%;
+    }
+
+  .numeric-result {
+      color: #495057;
+    }
+
+</style>
+    <!-- top navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler mx-3"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#sidebar"
+          aria-controls="offcanvasExample"
+        >
+          <span class="navbar-toggler-icon" data-bs-target="#sidebar"></span>
+        </button>
+        <a
+          class="navbar-brand me-auto ms-lg-0 ms-3 fw-bold"
+          href="./index.html"
+          >e-Agropulse</a
+        >
+<!-- 
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#topNavBar"
+        aria-controls="topNavBar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+        <div class="collapse navbar-collapse" id="topNavBar">
+          <form class="d-flex ms-auto my-3 my-lg-0">
+            <div class="input-group">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./images/ingredion.png" alt="" width="65" height="40">
+              </a>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </nav>
+    <!-- top navigation bar -->
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start sidebar-nav bg-light" tabindex="-1" id="sidebar">
+      <div class="offcanvas-body d-flex flex-column p-0">
+        <nav class="navbar-light">
+          <ul class="navbar-nav flex-column mb-auto">
+            <li>
+              <div class="text-muted small fw-bold text-uppercase px-3 mb-3">
+                Menu
+              </div>
+            </li>
+            <li class="active">
+              <a href="./index.html" class="nav-link px-3 active">
+                <span class="me-2"><i class="bi bi-house"></i></span>
+                <span>Overview</span>
+              </a>
+            </li>
+            <li>
+              <a href="./actividades.html" class="nav-link px-3">
+                <span class="me-2"><i class="fas fa-tasks"></i></span>
+                <span>SAI Menu</span>
+              </a>
+            </li>
+            <li>
+              <a href="./FSA.pdf" download="FSA.pdf" class="nav-link px-3">
+                <span class="me-2"><i class="fas fa-file-download"></i></span>
+                <span>FSA</span>
+              </a>
+            </li>
+            <li class="my-4"><hr class="dropdown-divider bg-dark" /></li>
+            <li>
+              <div class="text-muted small fw-bold text-uppercase px-3 mb-3">
+               SAI
+              
+              </div>
+            </li>
+
+            <li>
+              <a href="./topic-sai-1.html" class="nav-link px-3">
+                <span class="me-2 material-icons">nature_people</span>
+                <span>Community and management in the farming operation</span>
+              </a>
+            </li>
+            <li>
+              <a href="./topic-sai-2.html" class="nav-link px-3">
+                <span class="me-2 material-icons">soap</span>
+                <span>Plant material selection and multiplication</span>
+              </a>
+            </li>
+            <li>
+              <a href="./topic-sai-3.html" class="nav-link px-3">
+                <span class="me-2 material-icons">compost</span>
+                <span>Land Management</span>
+              </a>
+            </li>
+            <li>
+              <a href="./topic-sai-4.html" class="nav-link px-3">
+                <span class="me-2 material-icons">task_alt</span>
+                <span>Nutrient Management</span>
+              </a>
+            </li>
+            <li>
+              <a href="./topic-sai-5.html" class="nav-link px-3">
+                <span class="me-2 material-icons">bug_report</span>
+                <span>Crop Protection & Integrated Pest Management</span>
+              </a>
+            </li>
+            <li>
+              <a href="./topic-sai-6.html" class="nav-link px-3">
+                <span class="me-2 material-icons">water_drop</span>
+                <span>Water Management</span>
+              </a>
+            </li>
+    
+
+            <li>
+              <a href="./topic-sai-7.html" class="nav-link px-3">
+                <span class="me-2 material-icons">co2</span>
+                <span>Air quality and emissions</span>
+              </a>
+            </li>
+            <li class="my-4"><hr class="dropdown-divider bg-dark" /></li>
+                        <!-- Opción Cerrar Sesión al final -->
+                        <li>
+                          <a href="./login.html" class="nav-link px-3">
+                            <span class="me-2"><i class="fas fa-power-off"></i></span>
+                            <span>Sign Out</span>
+                          </a>
+                        </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- offcanvas-->
+    <main class="mt-5 pt-3">
+      <div class="container-fluid">
+        <div class="row bg-cimmyt pt-10 pb-21">
+          <div class="col-md-12">
+            <h4>Title</h4>
+          </div>
+        </div>
+        <div class="modal fade" id="ciclo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Reporting Period</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-center">
+                Cumulative information
+                <p>Consider the Spring-Summer and Fall-Winter cycles.</p>
+                <p>Updated to Fall-Winter 23/24</p>
+              </div>
+            </div>
+          </div>
+      </div>
+        <!-- <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          <strong>¡Atención!</strong> Información de prueba.
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div> -->
+        <div class="row pb-4 pt-5">
+          <div class="col-md-5 col-sm-12">
+            <div class="row row-cols-2 pt-4 pb-2">
+              <div class="col">
+                <div class="card  indicator-card">
+                  <div class="card-body d-flex align-items-start">
+                      <i class="fas fa-users card-icon me-3"></i>
+                      <h4 class="card-title kpi-red text-center">Participating </h4>
+                  </div>
+                  <div class="text-center">
+                    <span  id="productores" class="number-kpi-red counter-count"></span>
+                  </div>
+                  <div class="card-footer text-center">
+                      <small class="text-muted">               <p class="kpi-red">Farmers</p></small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card indicator-card">
+                  <div class="card-body d-flex align-items-start">
+                      <i class="fas fa-draw-polygon card-icon me-3"></i>
+                      <h4 class="card-title kpi-green text-center">Surface area (ha) </h4>
+                  </div>
+                  <div class="text-center">
+                    <span id="hectareas" class="number-kpi-green counter-count"></span>
+                  </div>
+                  <div class="card-footer text-center">
+                      <small class="text-muted"><p class="kpi-green">Applying Agricultural Innovations</p></small>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="col pt-4">
+                <div class="card  indicator-card ">
+                  <div class="card-body d-flex align-items-start">
+                      <i class="fas fa-draw-polygon card-icon me-3"></i>
+                      <h4 class="card-title kpi-green text-center">Surface area (ha)</h4>
+                  </div>
+                  <div class="text-center">
+                    <span id="AC_ha" class="number-kpi-green counter-count"></span>
+                  </div>
+                  <div class="card-footer text-center">
+                      <small class="text-muted"><p class="kpi-green">Applying Conservation <br>Agriculture</p></small>
+                  </div>
+                </div>
+              </div>
+              <div class="col pt-4">
+                <div class="card  indicator-card">
+                  <div class="card-body d-flex align-items-start">
+                      <i class="fas fa-users card-icon me-3"></i>
+                      <h4 class="card-title kpi-red text-center">Attendees</h4>
+                  </div>
+                  <div class="text-center">
+                    <span id="asistentes" class="number-kpi-red counter-count"></span>
+                  </div>
+                  <div class="card-footer text-center">
+                      <small class="text-muted">   <p class="kpi-red">in the different topics for the promotion of sustainable agriculture</p></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-cols-2 pt-4 pb-2">
+              <div class="col">
+              <div class="card  indicator-card">
+                <div class="card-body d-flex align-items-start">
+                    <i class="fas fa-weight-hanging card-icon me-3"></i>
+                    <h4 class="card-title kpi text-center">Grain Produced (Tons)</h4>
+                </div>
+                <div class="text-center">
+                  <span id="eventos" class="number-kpi-no counter-count">16037</span>
+                </div>
+                <div class="card-footer text-center">
+                    <small class="text-muted">   <p class="kpi">Spring-Summer</p></small>
+                </div>
+              </div>
+              </div>
+              <div class="col">
+              <div class="card  indicator-card">
+                <div class="card-body d-flex align-items-start">
+                    <i class="fas fa-weight-hanging card-icon me-3"></i>
+                    <h4 class="card-title kpi text-center">Grain Produced (Tons)</h4>
+                </div>
+                <div class="text-center">
+                  <span id="eventos" class="number-kpi-no counter-count">61081</span>
+                </div>
+                <div class="card-footer text-center">
+                    <small class="text-muted"><p class="kpi">Fall-Winter</p></small>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7 col-sm-12">
+            <div class="row container-fluid pb-5 ">
+
+
+              <style>
+        
+        
+              body {
+                  padding: 0;
+                  margin: 0;
+                  height: 100%;
+                  width: 100%;
+              }
+        
+              .flex-container {
+                  height: 100%;
+                  display: flex;
+                  overflow: hidden;
+              }
+        
+              #BT {
+                  flex: 2;
+                  padding: 0;
+                  margin: 0;
+                  height: 500px;
+                  width: 100%;
+              }
+        
+              .side-panel {
+                  flex: 1;
+                  padding: 1em;
+                  overflow: auto;
+              }
+        
+              .container {
+                  border-bottom: solid 1px #ccc;
+              }
+        
+              h3 {
+                  color: #2d9b7e;
+              }
+        
+              .esri-feature__title {
+                  background-color: #e6e6e6;
+                  padding: 0.25em;
+              }
+        
+              .esri-feature__size-container {
+                  background: #f5f5f5;
+              }
+              #logoDiv {
+          padding: 12px;
+          background-color: rgb(253, 252, 252);
+          color: pink;
+          text-align: center;
+          width: auto;
+        }
+        
+        
+              </style>
+                      
+             
+             
+                <div class="row container-fluid" >
+                    <div class="col-md-12">
+                      <select id="filter" class="esri-select ">
+                        <option value="">All</option>
+                        <option value="OI_2023_2024">Fall-Winter 23/24</option>
+                        <option value="PV_2023">Spring-Summer 2023</option>
+                        <option value="OI_2022_2023">Fall-Winter 22/23</option>
+                        <option value="PV_2022">Spring-Summer 2022</option>
+                        <option value="2022">Fall-Winter 21/22</option>
+
+                      </select>
+                      <div id="features" class="feature-container">
+                        <div id="instructions" class="text-justify h6">
+                          <p>This map shows in detail the agronomic management of each plot.</p>
+                          <p>To obtain information please click on any of the polygons.</p>
+                        </div>
+                            
+                    </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div id="legendDiv"></div>
+                    </div>
+                  </div>
+                      <!-- <div id="logoDiv" class="esri-widget"> <img src="./images/ingredion.png" width="200" > </div> -->
+        
+        
+              <div class="row flex-container">
+              <div class="col-md-12 col-sm-12"id="BT"></div>
+     
+              </div>
+              
+  
+  
+            </div>
+       
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <!-- Container fluid -->
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://js.arcgis.com/4.21/"></script>
+    <script src="./js/mapaparcela.js"></script>
+    <script src="./js/overview.js"></script>
+    
+    <script>
+      $(document).ready(function(){
+          $('#ciclo').modal('show')
+      })
+  </script>
+    <script type="text/javascript" src="./js/manejodesesiones.js" charset="ISO-8859-1"></script>
+  </body>
+</html>

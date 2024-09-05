@@ -1,0 +1,374 @@
+{"Header":{"Name":"Ingredion","Dimension":"Protección del cultivo y Manejo Integral de Plagas"},
+    "KPI_SET":[
+    {   "ID":"01",
+    "KPI_NAME":"Uso de agroquímicos",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Protección del cultivo y Manejo Integral de Plagas",
+    "UNIT":"Porcentaje",
+    "TYPE":"null",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":"",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"FW 2023-2024",
+        "CICLO":"OI",
+        "RESULTS":[
+            {
+                "category": "Pesticides",
+                "value1": 100,
+                "value2": 0
+                },
+                {
+                "category": "Herbicides",
+                "value1": 100,
+                "value2": 0
+                }
+        ]
+    },
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "CICLO":"Primavera-Verano",
+        "RESULTS":[
+            {
+                "category": "Pesticides",
+                "value1": 100,
+                "value2": 0
+                },
+                {
+                "category": "Herbicides",
+                "value1": 100,
+                "value2": 0
+                }
+        ]
+    },
+      {   
+        "TIME_PERIOD":"FW 2022-2023",
+        "CICLO":"OI",
+        "RESULTS":[
+            {
+                "category": "Pesticides",
+                "value1": 100,
+                "value2": 0
+                },
+                {
+                "category": "Herbicides",
+                "value1": 100,
+                "value2": 0
+                }
+        ]
+    },
+        {   
+        "TIME_PERIOD":"SS 2022",
+        "CICLO":"Primavera-Verano",
+        "RESULTS":[
+            {
+                "category": "Pesticides",
+                "value1": 100,
+                "value2": 0
+                },
+                {
+                "category": "Herbicides",
+                "value1": 100,
+                "value2": 0
+                }
+        ]
+    },
+        {   
+            "TIME_PERIOD":"FW 2021-2022",
+            "CICLO":"OI",
+            "RESULTS":[
+                {
+                    "category": "Pesticides",
+                    "value1": 100,
+                    "value2": 0
+                    },
+                    {
+                    "category": "Herbicides",
+                    "value1": 100,
+                    "value2": 0
+                    }
+            ]
+        }
+    ]
+    },
+    {   "ID":"02",
+    "KPI_NAME":"Superficie con monitoreo de plagas",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Protección del cultivo y Manejo Integral de Plagas",
+    "UNIT":"ha",
+    "TYPE":"null",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":" ",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"FW 2023-2024",
+        "RESULTS":[{
+            "mon_plaga": 2484
+
+
+          }]
+    },
+      
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "RESULTS":[{
+            "mon_plaga": 94
+          }]
+    },
+      {   
+        "TIME_PERIOD":"FW 2022-2023",
+        "RESULTS":[{
+            "mon_plaga": 1280
+          }]
+    },
+
+        {   
+            "TIME_PERIOD":"SS 2022",
+            "RESULTS":[{
+                "mon_plaga": 0
+              }]
+        },
+        {   
+            "TIME_PERIOD":"FW 2021-2022",
+            "RESULTS":[{
+                "mon_plaga": 946
+              }]
+        }
+    ]
+    },
+    {   "ID":"03",
+    "KPI_NAME":"Superficie con manejo agroecológico de plagas",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Protección del cultivo y Manejo Integral de Plagas",
+    "UNIT":"ha",
+    "TYPE":"null",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":" ",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"FW 2023-2024",
+        "RESULTS":[{
+            "agro_man": 243
+
+          }]
+    },
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "RESULTS":[{
+            "agro_man": 913
+
+          }]
+    },
+      {   
+        "TIME_PERIOD":"FW 2022-2023",
+        "RESULTS":[{
+            "agro_man": 25
+          }]
+    },
+
+        {   
+            "TIME_PERIOD":"SS 2022",
+            "RESULTS":[{
+                "agro_man": 159
+
+              }]
+        },
+        {   
+            "TIME_PERIOD":"FW 2021-2022",
+            "RESULTS":[{
+                "agro_man": 28
+              }]
+        }
+    ]
+    },
+    {   "ID":"04",
+    "KPI_NAME":"Capacitación a Farmers",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Protección del cultivo y Manejo Integral de Plagas",
+    "UNIT":"Número de Farmers",
+    "TYPE":"Adopción",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":" ",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"FW 2023-2024",
+        "CICLO":"OI",
+        "RESULTS":[
+          {
+            "gen": "Men",
+            "value": 14
+          },
+          {
+            "gen": "Women",
+            "value": null
+          }
+        ]
+    },
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "CICLO":"Primavera-Verano",
+        "RESULTS":[
+          {
+            "gen": "Men",
+            "value": 51
+          },
+          {
+            "gen": "Women",
+            "value": 3
+          }
+        ]
+    },
+      {   
+        "TIME_PERIOD":"FW 2022-2023",
+        "CICLO":"OI",
+        "RESULTS":[
+          {
+            "gen": "Men",
+            "value": 16
+          },
+          {
+            "gen": "Women",
+            "value": null
+          }
+        ]
+    },
+        {   
+            "TIME_PERIOD":"SS 2022",
+            "CICLO":"Primavera-Verano",
+            "RESULTS":[
+              {
+                "gen": "Men",
+                "value": 54
+              },
+              {
+                "gen": "Women",
+                "value": 15
+              }
+    ]},
+        {   
+          "TIME_PERIOD":"FW 2021-2022",
+          "CICLO":"OI",
+          "RESULTS":[
+            {
+              "gen": "Men",
+              "value": 21
+            },
+            {
+              "gen": "Women",
+              "value": 10
+            }
+          ]
+      }
+    ]
+    },
+    {   "ID":"05",
+    "KPI_NAME":"Capacitación a Farmers B",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Protección del cultivo y Manejo Integral de Plagas",
+    "UNIT":"Número de Farmers",
+    "TYPE":"Validacion",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":" ",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"FW 2023-2024",
+        "CICLO":"OI",
+        "RESULTS":[
+          {
+            "tipo": "Farmers",
+            "numero":    11
+          },
+          {
+            "tipo": "Technicians",
+            "numero":    3
+          },
+          {
+            "tipo": "Others",
+            "numero":   0
+          }
+        ]
+    },
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "CICLO":"Primavera-Verano",
+        "RESULTS":[
+          {
+            "tipo": "Farmers",
+            "numero":  28
+          },
+          {
+            "tipo": "Technicians",
+            "numero":   18
+          },
+          {
+            "tipo": "Others",
+            "numero":   8
+          }
+      ]},
+      {   
+        "TIME_PERIOD":"FW 2022-2023",
+        "CICLO":"OI",
+        "RESULTS":[
+          {
+            "tipo": "Farmers",
+            "numero":    8
+          },
+          {
+            "tipo": "Technicians",
+            "numero":    3
+          },
+          {
+            "tipo": "Others",
+            "numero":   5
+          }
+        ]
+    },
+        {   
+            "TIME_PERIOD":"SS 2022",
+            "CICLO":"Primavera-Verano",
+            "RESULTS":[
+              {
+                "tipo": "Farmers",
+                "numero":  39
+              },
+              {
+                "tipo": "Technicians",
+                "numero":   22
+              },
+              {
+                "tipo": "Others",
+                "numero":   8
+              }
+    ]},
+        {   
+          "TIME_PERIOD":"FW 2021-2022",
+          "CICLO":"OI",
+          "RESULTS":[
+            {
+              "tipo": "Farmers",
+              "numero":    24
+            },
+            {
+              "tipo": "Technicians",
+              "numero":    5
+            },
+            {
+              "tipo": "Others",
+              "numero":   2
+            }
+          ]
+      }
+    ]
+    }
+    ]
+} 

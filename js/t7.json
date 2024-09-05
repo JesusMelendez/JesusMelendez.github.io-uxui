@@ -1,0 +1,69 @@
+{"Header":{"Name":"Ingredion","Dimension":"NATURAL RESOURCES CONSERVATION"},
+    "KPI_SET":[
+    {   "ID":"07",
+    "INDICADOR":"Water productivity",
+    "FREQ":"Quarterly",
+    "TOPIC":"NRC",
+    "UNIT":"ton/m3",
+    "TYPE":"Adoption area",
+    "NOTE":"none",
+    "LASTUPDATE":"13/07/2022",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"FW 2023-2024",
+        "CICLO":"OI",
+        "RESULTS":[{
+          "variedad": "Kind of plot",
+          "inno": 2410.0
+          ,
+          "cg":2540
+
+        }]
+    },
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "CICLO":"Primavera-Verano",
+        "RESULTS":[{
+          "variedad": "Kind of plot",
+          "inno": 1296.7
+
+          ,
+          "cg":1295.1
+
+
+        }]
+    },
+      {   
+        "TIME_PERIOD":"FW 2022-2023",
+        "CICLO":"OI",
+        "RESULTS":[{
+          "variedad": "Kind of plot",
+          "inno": 3419.425,
+          "cg":4422.36
+        }]
+    },
+        {   
+            "TIME_PERIOD":"SS 2022",
+            "CICLO":"Primavera-Verano",
+            "RESULTS":[{
+              "variedad": "Kind of plot",
+              "inno": 3319.5
+              ,
+              "cg":3353.8
+
+            }]
+        },
+        {   
+            "TIME_PERIOD":"FW 2021-2022",
+            "CICLO":"OI",
+            "RESULTS":[{
+              "variedad": "Kind of plot",
+              "inno": 1698,
+              "cg":3723
+            }]
+        }
+    ]
+    }
+    ]
+} 

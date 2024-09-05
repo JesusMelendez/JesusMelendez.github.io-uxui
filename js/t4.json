@@ -1,0 +1,451 @@
+{"Header":{"Name":"Ingredion","Dimension":"Gestión de los Nutrientes"},
+    "KPI_SET":[
+    {   "ID":"01",
+        "KPI_NAME":"Distribución de superficie por forma de aplicación de fertilizantes",
+        "FREQ":"Ciclo Agronómico",
+        "TOPIC":"Gestión de los Nutrientes",
+        "UNIT":"Porcentaje",
+        "TYPE":"null",
+        "NOTE":"null",
+        "SOURCE":"API",
+        "LASTUPDATE":" ",
+        "STATUS":"OK",
+        "OBSERVATIONS":[
+          {   
+            "TIME_PERIOD":"FW 2023-2024",
+            "RESULTS":[{
+                "seed": "Buried in the soil",
+                "val": 989
+
+              },
+              {
+                "seed": "Foliar",
+                "val": 302
+
+              }]
+        },
+          {   
+            "TIME_PERIOD":"SS 2023",
+            "RESULTS":[{
+                "seed": "Buried in the soil",
+                "val": 483
+
+              },
+              {
+                "seed": "Foliar",
+                "val": 277
+
+              },
+              {
+                "seed": "Injected",
+                "val": 8
+              },
+              {
+                "seed": "On the surface",
+                "val": 453
+              }]
+        },
+          {   
+            "TIME_PERIOD":"FW 2022-2023",
+            "RESULTS":[{
+                "seed": "Buried in the soil",
+                "val": 709.05
+              },
+              {
+                "seed": "In irrigaton / liquids",
+                "val": 161
+              },
+              {
+                "seed": "Injected",
+                "val": 11
+              }]
+        },
+            {   
+                "TIME_PERIOD":"SS 2022",
+                "RESULTS":[{
+                    "seed": "Buried in the soil",
+                    "val": 188.18
+
+                  },
+                  {
+                    "seed": "Foliar",
+                    "val": 50.80
+
+                  },
+                  {
+                    "seed": "On the surface",
+                    "val": 189.18
+                  }]
+            },
+
+            {   
+                "TIME_PERIOD":"FW 2021-2022",
+                "RESULTS":[{
+                    "seed": "Buried in the soil",
+                    "val": 185.99
+                  },
+                  {
+                    "seed": "Foliar",
+                    "val": 11.50
+                  },
+                  {
+                    "seed": "Injected",
+                    "val": 166.54
+                  }]
+            }
+
+        ]
+    },
+    {   "ID":"02",
+    "KPI_NAME":"Distribución de superficie por fraccionamiento de Nitrogeno",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Gestión de los Nutrientes",
+    "UNIT":"ha",
+    "TYPE":"null",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":" ",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"FW 2023-2024",
+        "RESULTS":[
+          {
+            "ferti": "A single application",
+            "val":6
+
+          },
+          {
+            "ferti": "Two applications",
+            "val":654
+
+          },
+          {
+            "ferti": "Three or more applications",
+            "val":329
+
+          }
+        ]
+    },
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "RESULTS":[
+        {
+          "ferti": "A single application",
+          "val": 8
+        },
+        {
+          "ferti": "Two applications",
+          "val": 147
+        },
+        {
+          "ferti": "Three or more applications",
+          "val": 333
+        }]
+    },
+      {   
+        "TIME_PERIOD":"FW 2022-2023",
+        "RESULTS":[
+          {
+            "ferti": "Two applications",
+            "val": 432.05
+          },
+          {
+            "ferti": "Three or more applications",
+            "val": 288
+          }
+        ]
+    },
+        {   
+            "TIME_PERIOD":"SS 2022",
+            "RESULTS":[
+            {
+              "ferti": "Two applications",
+              "val": 3.5
+            },
+            {
+              "ferti": "Three or more applications",
+              "val": 185.68
+            }]
+        },
+
+        {   
+            "TIME_PERIOD":"FW 2021-2022",
+            "RESULTS":[
+              {
+                "ferti": "Two applications",
+                "val": 277
+              },
+              {
+                "ferti": "Three or more applications",
+                "val": 47.4
+              }
+]
+        }
+
+    ]
+    },
+    {   "ID":"03",
+    "KPI_NAME":"Uso de herramientas para determinar dosis adecuadas de fertilizante (Superficie ha)",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Gestión de los Nutrientes",
+    "UNIT":"Porcentaje",
+    "TYPE":"null",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":" ",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "RESULTS":[
+          {
+            "seed": "Soil analysis",
+            "val": 207
+          },
+          {
+            "seed": "Visual diagnosis using reference tables ",
+            "val": 30
+          }
+        ]
+    },
+      {   
+        "TIME_PERIOD":"FW 2022-2023",
+        "RESULTS":[{
+            "seed": null,
+            "val": null
+          }]
+    },
+        {   
+            "TIME_PERIOD":"SS 2022",
+            "RESULTS":[{
+                "seed": null,
+                "val": null
+              }]
+        },
+
+        {   
+            "TIME_PERIOD":"FW 2021-2022",
+            "RESULTS":[{
+                "seed": "Visual diagnosis using reference tables ",
+                "val": 324
+              }]
+        }
+
+    ]
+    },
+    {   "ID":"04",
+    "KPI_NAME":"Distribución de superficie por fuente de producto",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Gestión de los Nutrientes",
+    "UNIT":"ha",
+    "TYPE":"null",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":" ",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"FW 2023-2024",
+        "RESULTS":[
+          {
+            "pro": "Chemical Fertilizer ",
+            "val":989
+
+          },
+          {
+            "pro": "Organic/Biological Fertilizer",
+            "val": 60
+
+          }
+        ]
+      },
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "RESULTS":[
+          {
+            "pro": "Chemical Fertilizer ",
+            "val":488
+          },
+          {
+            "pro": "Organic/Biological Fertilizer",
+            "val": 22
+          }]
+    },
+      {   
+        "TIME_PERIOD":"FW 2022-2023",
+        "RESULTS":[
+          {
+            "pro": "Chemical Fertilizer ",
+            "val":720.05
+          }
+        ]
+      },
+      {   
+          "TIME_PERIOD":"SS 2022",
+          "RESULTS":[
+            {
+              "pro": "Chemical Fertilizer ",
+              "val":189.18
+            },
+            {
+              "pro": "Organic/Biological Fertilizer",
+              "val": 32
+            }]
+      },
+      {   
+          "TIME_PERIOD":"FW 2021-2022",
+          "RESULTS":[
+            {
+              "pro": "Chemical Fertilizer ",
+              "val":324
+            }
+        ]
+      }
+
+    ]
+    },
+    {   "ID":"05",
+    "KPI_NAME":"Capacitación a productores",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Comunidad y gestión en la operación agrícola",
+    "UNIT":"Número de productores",
+    "TYPE":"Adopción",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":" ",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "CICLO":"Primavera-Verano",
+        "RESULTS":[
+          {
+            "gen": "Men",
+            "value": 39
+          },
+          {
+            "gen": "Women",
+            "value": 3
+          }
+    ]},
+      {   
+        "TIME_PERIOD":"FW 2022-2023",
+        "CICLO":"OI",
+        "RESULTS":[
+          {
+            "gen": "Men",
+            "value": 7
+          },
+          {
+            "gen": "Women",
+            "value": 2
+          }
+        ]},
+        {   
+            "TIME_PERIOD":"SS 2022",
+            "CICLO":"Primavera-Verano",
+            "RESULTS":[
+              {
+                "gen": "Men",
+                "value": 106
+              },
+              {
+                "gen": "Women",
+                "value": 3
+              }
+        ]},
+        {   
+          "TIME_PERIOD":"FW 2021-2022",
+          "CICLO":"OI",
+          "RESULTS":[
+            {
+              "gen": "Men",
+              "value": 84
+            },
+            {
+              "gen": "Women",
+              "value": 8
+            }
+        ]}
+    ]
+    },
+    {   "ID":"06",
+    "KPI_NAME":"Capacitación a productores B",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Comunidad y gestión en la operación agrícola",
+    "UNIT":"Número de productores",
+    "TYPE":"Validacion",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":" ",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "CICLO":"Primavera-Verano",
+        "RESULTS":[
+          {
+            "tipo": "Farmers",
+            "numero":   35
+          },
+          {
+            "tipo": "Technicians",
+            "numero":   6
+          },
+          {
+            "tipo": "Others",
+            "numero":   1
+          }
+        ]
+    },
+      {   
+        "TIME_PERIOD":"FW 2022-2023",
+        "CICLO":"OI",
+        "RESULTS":[
+          {
+            "tipo": "Farmers",
+            "numero":   3
+          },
+          {
+            "tipo": "Technicians",
+            "numero":   6
+          }
+        ]
+      },
+        {   
+            "TIME_PERIOD":"SS 2022",
+            "CICLO":"Primavera-Verano",
+            "RESULTS":[
+              {
+                "tipo": "Farmers",
+                "numero":   106
+              },
+              {
+                "tipo": "Technicians",
+                "numero":   1
+              },
+              {
+                "tipo": "Others",
+                "numero":   2
+              }
+            ]
+        },
+        {   
+          "TIME_PERIOD":"FW 2021-2022",
+          "CICLO":"OI",
+          "RESULTS":[
+            {
+              "tipo": "Farmers",
+              "numero":   73
+            },
+            {
+              "tipo": "Technicians",
+              "numero":   19
+            }
+          ]
+        }
+      ]
+    }
+  ]
+} 

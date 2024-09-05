@@ -1,0 +1,234 @@
+{"Header":{"Name":"Ingredion","Dimension":"Gestión del Suelo"},
+    "KPI_SET":[
+    {   "ID":"01",
+    "KPI_NAME":"Superficie bajo Agricultura de Conservación",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Gestión del Suelo",
+    "UNIT":"ha",
+    "TYPE":"null",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":" ",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"FW 2023-2024",
+        "RESULTS":[{
+            "surface": 2234
+
+
+          }]
+      },
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "RESULTS":[{
+            "surface": 2296
+          }]
+      },
+      {   
+        "TIME_PERIOD":"FW 2022-2023",
+        "RESULTS":[{
+            "surface": 1378.65
+          }]
+      },
+      {   
+          "TIME_PERIOD":"SS 2022",
+          "RESULTS":[{
+              "surface": 1119
+
+            }]
+      },
+      {   
+          "TIME_PERIOD":"FW 2021-2022",
+          "RESULTS":[{
+              "surface": 644
+            }]
+      }
+    ]
+    },
+    {   "ID":"02",
+    "KPI_NAME":"Capacitación a productores",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Gestión del Suelo",
+    "UNIT":"Número de productores",
+    "TYPE":"Adopción",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":" ",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"FW 2023-2024",
+        "CICLO":"OI",
+        "RESULTS":[
+          {
+            "gen": "Men",
+            "value": 66
+
+
+          },
+          {
+            "gen": "Women",
+            "value": 6
+          }
+        ]
+    },
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "CICLO":"Primavera-Verano",
+        "RESULTS":[
+          {
+            "gen": "Men",
+            "value": 77
+          },
+          {
+            "gen": "Women",
+            "value": 6
+          }
+      ]
+    },
+      {   
+        "TIME_PERIOD":"FW 2022-2023",
+        "CICLO":"OI",
+        "RESULTS":[
+          {
+            "gen": "Men",
+            "value": 9
+          },
+          {
+            "gen": "Women",
+            "value": 1
+          }
+        ]
+    },
+        {   
+            "TIME_PERIOD":"SS 2022",
+            "CICLO":"Primavera-Verano",
+            "RESULTS":[
+              {
+                "gen": "Men",
+                "value": 83
+              },
+              {
+                "gen": "Women",
+                "value": 11
+              }
+          ]
+        },
+        {   
+          "TIME_PERIOD":"FW 2021-2022",
+          "CICLO":"OI",
+          "RESULTS":[
+            {
+              "gen": "Men",
+              "value": 47
+            },
+            {
+              "gen": "Women",
+              "value": 7
+            }
+          ]
+      }
+    ]
+    },
+    {   "ID":"03",
+    "KPI_NAME":"Capacitación a productores B",
+    "FREQ":"Ciclo Agronómico",
+    "TOPIC":"Gestión del Suelo",
+    "UNIT":"Número de productores",
+    "TYPE":"Validacion",
+    "NOTE":"null",
+    "SOURCE":"API",
+    "LASTUPDATE":" ",
+    "STATUS":"OK",
+    "OBSERVATIONS":[
+      {   
+        "TIME_PERIOD":"FW 2023-2024",
+        "CICLO":"OI",
+        "RESULTS":[
+          {
+            "tipo": "Farmers",
+            "numero":   65
+          },
+          {
+            "tipo": "Technicians",
+            "numero":   6
+          },
+          {
+            "tipo": "Others",
+            "numero":   1
+          }
+        ]
+    },
+      {   
+        "TIME_PERIOD":"SS 2023",
+        "CICLO":"Primavera-Verano",
+        "RESULTS":[
+          {
+            "tipo": "Farmers",
+            "numero":   71
+          },
+          {
+            "tipo": "Technicians",
+            "numero":   6
+          },
+          {
+            "tipo": "Others",
+            "numero":   6
+          }
+        ]
+      },
+      {   
+        "TIME_PERIOD":"FW 2022-2023",
+        "CICLO":"OI",
+        "RESULTS":[
+          {
+            "tipo": "Farmers",
+            "numero":   4
+          },
+          {
+            "tipo": "Technicians",
+            "numero":   4
+          },
+          {
+            "tipo": "Others",
+            "numero":   2
+          }
+        ]
+    },
+        {   
+            "TIME_PERIOD":"SS 2022",
+            "CICLO":"Primavera-Verano",
+            "RESULTS":[
+              {
+                "tipo": "Farmers",
+                "numero":   90
+              },
+              {
+                "tipo": "Technicians",
+                "numero":   3
+              },
+              {
+                "tipo": "Others",
+                "numero":   1
+              }
+            ]
+          },
+        {   
+          "TIME_PERIOD":"FW 2021-2022",
+          "CICLO":"OI",
+          "RESULTS":[
+            {
+              "tipo": "Farmers",
+              "numero":   53
+            },
+            {
+              "tipo": "Technicians",
+              "numero":   1
+            }
+          ]
+      }
+    ]
+    }
+    ]
+} 
